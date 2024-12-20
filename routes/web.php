@@ -7,5 +7,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', ['nama' => 'Emil']);
+});
+
+Route::get('/program', function () {
+    return view('program', ['nama' => 'Emil']);
 });

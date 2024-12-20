@@ -20,7 +20,7 @@
     <a href="/zakat">Zakat</a>
     <a href="/laporan">Laporan</a>
     <a href="/rekening">Rekening</a>
-    <h1>About</h1>
+    <h1>Program</h1>
     <h3>Owner : {{ $nama }}</h3>
 
 </body>
