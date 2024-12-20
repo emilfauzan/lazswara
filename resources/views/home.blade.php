@@ -10,5 +10,6 @@
     <a href="/">Home</a>
     <a href="/about">About</a>
     <h1>Home</h1>
+    <img src="img/logotransparent.png" alt="logo">
 </body>
 </html>
