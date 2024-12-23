@@ -3,13 +3,13 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['title' => 'Home Page']);
 });
 
 Route::get('/about', function () {
-    return view('about', ['nama' => 'Emil']);
+    return view('about', ['title' => 'About'], ['name' => 'Emil Fauzan']);
 });
 
 Route::get('/program', function () {
-    return view('program', ['nama' => 'Emil']);
+    return view('program', ['title' => 'Program'], ['nama' => 'Emil']);
 });
