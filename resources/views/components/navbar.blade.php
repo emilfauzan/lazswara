@@ -65,7 +65,7 @@
             <div class="-mr-2 flex md:hidden">
                 <!-- Mobile menu button -->
                 <button type="button" @click="isOpen = !isOpen"
-                    class="relative inline-flex items-center justify-center rounded-md bg-green-600 p-2 text-gray-200 hover:bg-green-700 hover:text-white ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900"
+                    class="relative inline-flex items-center justify-center rounded-md bg-teal-600 p-2 text-gray-200 hover:bg-teal-700 hover:text-white ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900"
                     aria-controls="mobile-menu" aria-expanded="false">
                     <span class="absolute -inset-0.5"></span>
                     <span class="sr-only">Open main menu</span>
