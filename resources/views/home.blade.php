@@ -1,5 +1,17 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
+
+        <div class="bg-teal-400 my-4 p-8 grid grid-cols-2">
+            <div class="content-center">
+                <h1 class="text-4xl font-bold tracking-wider text-gray-200 mb-6">Lorem, ipsum dolor.</h1>
+                <p class="text-xs mb-6">lazswara.org</p>
+                <button class="border p-2 rounded-xl">Hubungi Kami</button>
+            </div>
+            <div class=" place-self-center">
+                <img class="size-64" src="{{ asset('img/logotransparentsqr.png') }}" alt="">
+            </div>
+        </div>
+
     <h3>layout halaman home</h3>
     <a href="/">Home</a>
     <a href="/about">About</a>
