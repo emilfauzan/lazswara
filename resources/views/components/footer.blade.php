@@ -1,5 +1,5 @@
 {{-- Footer Section --}}
-<footer class="bg-white">
+<footer class="bg-white mt-4">
 
     {{-- Alert --}}
     <div class="bg-orange-400 px-4 py-8 flex">
