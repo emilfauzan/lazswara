@@ -6,7 +6,7 @@
             </div>
             <div
                 class="content-center md:justify-items-start justify-items-center mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 hover:cursor-default">
-                <h1 class="text-4xl font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md">{{ $slot }}</h1>
+                <h1 class="text-4xl text-center md:text-start font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md">{{ $slot }}</h1>
                 <p class="text-xs mb-6 text-gray-200 drop-shadow-md hover:cursor-default">lazswara.org</p>
                 <button class="flex bg-teal-800 p-4 px-6 rounded-xl font-bold text-gray-200 hover:bg-teal-900 ease-in-out duration-200 active:bg-teal-600 drop-shadow-lg">
                     <svg class="size-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"

@@ -4,198 +4,198 @@
     <div>
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 mb-6 drop-shadow-md">Tabel Zakat</h2>
     </div>
-    <div class="grid grid-cols-5 my-4 break-words md:break-normal items-stretch min-h-[150px] md:min-h-[200px] lg:min-h-[300px] justify-start md:justify-center">
+    <div class="grid grid-cols-5 my-4 break-words md:break-normal items-stretch min-h-[150px]">
         {{-- Row 1 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold self-stretch uppercase bg-orange-300/60 rounded-lg md:m-2 px-1 m-2 md:p-2 text-center flex flex-col justify-center">
-                <h2>Jenis Zakat</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg m-2 p-2 text-center flex flex-col justify-center items-center">
+                <h2 class="break-all md:break-normal">Jenis Zakat</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold self-stretch uppercase bg-orange-300/60 rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
-                <h2>Nisab (Batas Wajib Zakat)</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold self-stretch uppercase rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
+                <h2 class="break-all md:break-normal">Nisab (Batas Wajib Zakat)</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold self-stretch uppercase bg-orange-300/60 rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
-                <h2>Kadar Zakat</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold self-stretch uppercase rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
+                <h2 class="break-all md:break-normal">Kadar Zakat</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold self-stretch uppercase bg-orange-300/60 rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
-                <h2>Waktu</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold self-stretch uppercase rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
+                <h2 class="break-all md:break-normal">Waktu</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div
-                class="font-bold self-stretch uppercase bg-orange-300/60 rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
-                <h2>Perhitungan</h2>
+                class="font-bold self-stretch uppercase rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
+                <h2 class="break-all md:break-normal">Perhitungan</h2>
             </div>
         </div>
         {{-- Row 2 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase bg-orange-300/60 rounded-lg my-2 md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Zakat Penghasilan</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg my-2 md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                <h2 class="break-all md:break-normal">Zakat Penghasilan</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>524 Kg Beras</h2>
+                <h2 class="break-all md:break-normal">524 Kg Beras</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>2.5%</h2>
+                <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Saat Menerima</h2>
+                <h2 class="break-all md:break-normal">Saat Menerima</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
                 class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Penghasilan &times;2.5%</h2>
+                <h2 class="break-all md:break-normal">Penghasilan &times;2.5%</h2>
             </div>
         </div>
         
         {{-- Row 2 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase bg-orange-300/60 rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Zakat Perdagangan</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                <h2 class="break-all md:break-normal">Zakat Perdagangan</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>85 Gram Emas</h2>
+                <h2 class="break-all md:break-normal">85 Gram Emas</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>2.5%</h2>
+                <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>1 Tahun</h2>
+                <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
                 class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>(Modal yang Diputar + Laba + Piutang Lancar) - (Hutang Jatuh Tempo + Kerugian) x 2,5%</h2>
+                <h2 class="break-all md:break-normal">(Modal yang Diputar + Laba + Piutang Lancar) - (Hutang Jatuh Tempo + Kerugian) x 2,5%</h2>
             </div>
         </div>
         {{-- Row 2 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase bg-orange-300/60 rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Zakat Emas & Perak</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                <h2 class="break-all md:break-normal">Zakat Emas & Perak</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Emas: 85 gram <br> Perak: 595 gram</h2>
+                <h2 class="break-all md:break-normal">Emas: 85 gram <br> Perak: 595 gram</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>2.5%</h2>
+                <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>1 Tahun</h2>
+                <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
                 class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>(Emas yang Dimiliki - Emas/Perak yang Dipakai x 2,5%)</h2>
+                <h2 class="break-all md:break-normal">(Emas yang Dimiliki - Emas/Perak yang Dipakai x 2,5%)</h2>
             </div>
         </div>
         {{-- Row 2 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase bg-orange-300/60 rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Zakat Pertanian</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                <h2 class="break-all md:break-normal">Zakat Pertanian</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>524 Kg Beras</h2>
+                <h2 class="break-all md:break-normal">524 Kg Beras</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>5% irigasi <br>
+                <h2 class="break-all md:break-normal">5% irigasi <br>
                     10% tadah air hujan</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Saat Panen</h2>
+                <h2 class="break-all md:break-normal">Saat Panen</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
                 class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>5% x Hasil Panen 10% x Hasil Panen</h2>
+                <h2 class="break-all md:break-normal">5% x Hasil Panen 10% x Hasil Panen</h2>
             </div>
         </div>
         {{-- Row 2 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase bg-orange-300/60 rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Zakat Peternakan</h2>
+        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                <h2 class="break-all md:break-normal">Zakat Peternakan</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Kambing : 40 ekor
+                <h2 class="break-all md:break-normal">Kambing : 40 ekor
                     Sapi : 30 ekor</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>1 Ekor</h2>
+                <h2 class="break-all md:break-normal">1 Ekor</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>1 Tahun</h2>
+                <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
                 class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>1 Ekor Setiap 40 - 120 Ekor Kambing 1 Ekor Setiap 30 - 59 Ekor Sapi</h2>
+                <h2 class="break-all md:break-normal">1 Ekor Setiap 40 - 120 Ekor Kambing 1 Ekor Setiap 30 - 59 Ekor Sapi</h2>
             </div>
         </div>
         {{-- Row 2 --}}
-        <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase bg-orange-300/60 rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>Zakat Tabungan</h2>
+        <div class="flex justify-center items-center bg-orange-300/60 h-full w-full">
+            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                <h2 class="break-all md:break-normal">Zakat Tabungan</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
+        <div class="flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>85 gram emas/ <br>
+                <h2 class="break-all md:break-normal">85 gram emas/ <br>
                     595 gram perak</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
+        <div class="flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>2.5%</h2>
+                <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
+        <div class="flex justify-center items-center">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>1 Tahun</h2>
+                <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center">
+        <div class="flex justify-center items-center">
             <div
                 class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2>(Saldo Akhir - Bunga) x 2,5% <br> Jika Menabung di Bank Konvensioanl</h2>
+                <h2 class="break-all md:break-normal">(Saldo Akhir - Bunga) x 2,5% <br> Jika Menabung di Bank Konvensioanl</h2>
             </div>
         </div>
 
