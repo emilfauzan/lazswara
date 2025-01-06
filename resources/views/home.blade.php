@@ -39,23 +39,23 @@
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">524 Kg Beras</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Saat Menerima</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
-                class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Penghasilan &times;2.5%</h2>
             </div>
         </div>
@@ -67,23 +67,23 @@
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">85 Gram Emas</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
-                class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">(Modal yang Diputar + Laba + Piutang Lancar) - (Hutang Jatuh Tempo + Kerugian) x 2,5%</h2>
             </div>
         </div>
@@ -94,23 +94,23 @@
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Emas: 85 gram <br> Perak: 595 gram</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
-                class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">(Emas yang Dimiliki - Emas/Perak yang Dipakai x 2,5%)</h2>
             </div>
         </div>
@@ -121,24 +121,24 @@
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">524 Kg Beras</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">5% irigasi <br>
                     10% tadah air hujan</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Saat Panen</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
-                class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">5% x Hasil Panen 10% x Hasil Panen</h2>
             </div>
         </div>
@@ -149,24 +149,24 @@
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Kambing : 40 ekor
                     Sapi : 30 ekor</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">1 Ekor</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div
-                class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">1 Ekor Setiap 40 - 120 Ekor Kambing 1 Ekor Setiap 30 - 59 Ekor Sapi</h2>
             </div>
         </div>
@@ -177,24 +177,24 @@
             </div>
         </div>
         <div class="flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">85 gram emas/ <br>
                     595 gram perak</h2>
             </div>
         </div>
         <div class="flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">2.5%</h2>
             </div>
         </div>
         <div class="flex justify-center items-center">
-            <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+            <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">1 Tahun</h2>
             </div>
         </div>
         <div class="flex justify-center items-center">
             <div
-                class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
+                class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">(Saldo Akhir - Bunga) x 2,5% <br> Jika Menabung di Bank Konvensioanl</h2>
             </div>
         </div>
