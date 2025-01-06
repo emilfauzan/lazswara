@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Sedekah yang Amanah']);
+    return view('home', ['title' => 'Bersama mandirikan Ummat']);
 });
 
 Route::get('/about', function () {
