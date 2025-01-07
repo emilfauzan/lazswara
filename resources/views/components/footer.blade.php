@@ -1,8 +1,8 @@
 {{-- Footer Section --}}
-<footer class="bg-white mt-4">
+<footer class="bg-white mt-4 rounded-b-lg">
 
     {{-- Alert --}}
-    <div class="bg-orange-400 px-4 py-8 flex">
+    <div class="bg-orange-400 rounded-t-lg px-4 py-8 flex">
         <div class="mx-8 content-center">
             <svg class="size-12" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

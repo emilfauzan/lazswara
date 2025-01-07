@@ -6,8 +6,9 @@
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 mb-6 drop-shadow-md">Tabel Zakat</h2>
     </div>
     <div class="grid grid-cols-5 my-4 break-words md:break-normal items-stretch min-h-[150px]">
+
         {{-- Row 1 --}}
-        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+        <div class="border-b-2 rounded-tl-lg flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg m-2 p-2 text-center flex flex-col justify-center items-center">
                 <h2 class="break-all md:break-normal">Jenis Zakat</h2>
             </div>
@@ -30,12 +31,13 @@
                 <h2 class="break-all md:break-normal">Waktu</h2>
             </div>
         </div>
-        <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
+        <div class="border-b-2 rounded-tr-lg flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div
                 class="font-bold self-stretch uppercase rounded-lg md:m-2 p-1 m-2 md:p-2 text-center flex flex-col justify-center">
                 <h2 class="break-all md:break-normal">Perhitungan</h2>
             </div>
         </div>
+
         {{-- Row 2 --}}
         <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg my-2 md:m-2 py-2 px-2 md:p-2 text-center self-center">
@@ -63,7 +65,7 @@
             </div>
         </div>
 
-        {{-- Row 2 --}}
+        {{-- Row 3 --}}
         <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Zakat Perdagangan</h2>
@@ -87,10 +89,11 @@
         <div class="border-b-2 flex justify-center items-center">
             <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">(Modal yang Diputar + Laba + Piutang Lancar) - (Hutang Jatuh Tempo
-                    + Kerugian) x 2,5%</h2>
+                    + Kerugian) &times; 2,5%</h2>
             </div>
         </div>
-        {{-- Row 2 --}}
+
+        {{-- Row 4 --}}
         <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Zakat Emas & Perak</h2>
@@ -113,10 +116,11 @@
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2 class="break-all md:break-normal">(Emas yang Dimiliki - Emas/Perak yang Dipakai x 2,5%)</h2>
+                <h2 class="break-all md:break-normal">Emas yang Dimiliki - Emas/Perak yang Dipakai &times; 2,5%</h2>
             </div>
         </div>
-        {{-- Row 2 --}}
+
+        {{-- Row 5 --}}
         <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Zakat Pertanian</h2>
@@ -140,10 +144,11 @@
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2 class="break-all md:break-normal">5% x Hasil Panen 10% x Hasil Panen</h2>
+                <h2 class="break-all md:break-normal">5% &times; Hasil Panen 10% &times; Hasil Panen</h2>
             </div>
         </div>
-        {{-- Row 2 --}}
+
+        {{-- Row 6 --}}
         <div class="border-b-2 flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Zakat Peternakan</h2>
@@ -151,7 +156,7 @@
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2 class="break-all md:break-normal">Kambing : 40 ekor
+                <h2 class="break-all md:break-normal">Kambing : 40 ekor <br>
                     Sapi : 30 ekor</h2>
             </div>
         </div>
@@ -167,12 +172,13 @@
         </div>
         <div class="border-b-2 flex justify-center items-center">
             <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2 class="break-all md:break-normal">1 Ekor Setiap 40 - 120 Ekor Kambing 1 Ekor Setiap 30 - 59 Ekor
-                    Sapi</h2>
+                <h2 class="break-all md:break-normal">1 Ekor Setiap 40 - 120 Ekor Kambing <br>
+                    1 Ekor Setiap 30 - 59 Ekor Sapi</h2>
             </div>
         </div>
-        {{-- Row 2 --}}
-        <div class="flex justify-center items-center bg-orange-300/60 h-full w-full">
+
+        {{-- Row 7 --}}
+        <div class="rounded-bl-lg flex justify-center items-center bg-orange-300/60 h-full w-full">
             <div class="font-bold uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
                 <h2 class="break-all md:break-normal">Zakat Tabungan</h2>
             </div>
@@ -195,8 +201,8 @@
         </div>
         <div class="flex justify-center items-center">
             <div class="uppercase rounded-lg md:m-2 py-2 px-2 md:p-2 text-center self-center">
-                <h2 class="break-all md:break-normal">(Saldo Akhir - Bunga) x 2,5% <br> Jika Menabung di Bank
-                    Konvensioanl</h2>
+                <h2 class="break-all md:break-normal">(Saldo Akhir - Bunga) &times; 2,5% <br> Jika Menabung di Bank
+                    Konvensional</h2>
             </div>
         </div>
 
@@ -208,15 +214,15 @@
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Capaian Kami</h2>
     </div>
     <div class="grid md:grid-cols-3 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
-        <div class="content-center text-center justify-center items-center bg-orange-300/60 h-full w-full">
+        <div class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-full w-full">
             <h2 class="break-all md:break-normal">Sebanyak <strong>11.751 </strong>Orang</h2>
             <p>Jumlah <strong>Muzzaki & Munfiq</strong></p>
         </div>
-        <div class="content-center text-center justify-center items-center bg-orange-300/60 h-full w-full">
+        <div class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-full w-full">
             <h2 class="break-all md:break-normal">Sebanyak <strong> 24.125 </strong>Orang</h2>
             <p>Jumlah <strong>Mustahik</strong></p>
         </div>
-        <div class="content-center text-center justify-center items-center bg-orange-300/60 h-full w-full">
+        <div class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-full w-full">
             <h2 class="break-all md:break-normal">Sebanyak <strong>16</strong></h2>
             <p>Jumlah <strong>Mitra</strong></p>
         </div>
@@ -227,15 +233,19 @@
     <div>
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Hubungi Kami</h2>
     </div>
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
-        <div class="content-center text-center justify-center items-center bg-teal-500/20 h-full w-full">
+    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal items-stretch gap-4 min-h-[150px]">
+        <div class="bg-cover bg-center rounded-lg shadow aspect-w-16 aspect-h-9 w-full" style="background-image: url('/img/20.png');">
+            <div
+                class="flex items-center justify-center bg-teal-500/20 h-full w-full rounded-lg">
+            </div>
         </div>
-        <div class="content-center text-center justify-center items-center bg-teal-500/20 h-full w-full">
-            <h2 class="break-all md:break-normal"><strong>Silahkan hubungi kami untuk informasi lebuh lanjut.</strong></h2>
+        <div class="content-center rounded-lg px-4 justify-center items-center bg-teal-500/20 h-full w-full">
+            <h2 class="break-all md:break-normal"><strong>Silahkan hubungi kami untuk informasi lebih lanjut.</strong>
+            </h2>
             <p><strong>Admin Swara </strong>Via WhatsApp</p>
             <p>+62 853 4968 8826</p>
         </div>
-        
+
     </div>
     {{-- Hubungi Section End --}}
 
