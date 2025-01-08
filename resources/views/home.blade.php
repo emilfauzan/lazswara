@@ -214,17 +214,29 @@
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Capaian Kami</h2>
     </div>
     <div class="grid md:grid-cols-3 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
-        <div class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-full w-full">
-            <h2 class="break-all md:break-normal">Sebanyak <strong>11.751 </strong>Orang</h2>
-            <p>Jumlah <strong>Muzzaki & Munfiq</strong></p>
+        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/20.png');">
+            <div
+                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
+                <h2 class="text-xl">Sebanyak <strong>11.751 </strong>Orang</h2>
+                <p class="text-lg">Jumlah <strong>Muzzaki & Munfiq</strong></p>
+            </div>
         </div>
-        <div class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-full w-full">
-            <h2 class="break-all md:break-normal">Sebanyak <strong> 24.125 </strong>Orang</h2>
-            <p>Jumlah <strong>Mustahik</strong></p>
+        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/20.png');">
+            <div
+                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
+                <h2 class="text-xl">Sebanyak <strong> 24.125 </strong>Orang</h2>
+                <p class="text-lg">Jumlah <strong>Mustahik</strong></p>
+            </div>
         </div>
-        <div class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-full w-full">
-            <h2 class="break-all md:break-normal">Sebanyak <strong>16</strong></h2>
-            <p>Jumlah <strong>Mitra</strong></p>
+        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/20.png');">
+            <div
+                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
+                <h2 class="text-xl">Sebanyak <strong>16</strong></h2>
+                <p class="text-lg">Jumlah <strong>Mitra</strong></p>
+            </div>
         </div>
     </div>
     {{-- Capaian Section End --}}
@@ -233,14 +245,14 @@
     <div>
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Hubungi Kami</h2>
     </div>
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal items-stretch gap-4 min-h-[150px]">
-        <div class="bg-cover bg-center rounded-lg shadow aspect-w-16 aspect-h-9 w-full" style="background-image: url('/img/20.png');">
-            <div
-                class="flex items-center justify-center bg-teal-500/20 h-full w-full rounded-lg">
+    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 h-screen md:h-80 items-stretch">
+        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/20.png');">
+            <div class="items-center justify-center bg-teal-500/20 h-full w-full rounded-lg">
             </div>
         </div>
-        <div class="content-center rounded-lg px-4 justify-center items-center bg-teal-500/20 h-full w-full">
-            <h2 class="break-all md:break-normal"><strong>Silahkan hubungi kami untuk informasi lebih lanjut.</strong>
+        <div class="content-center rounded-lg px-4 place-self-center bg-teal-500/20 h-36">
+            <h2><strong>Silahkan hubungi kami untuk informasi lebih lanjut.</strong>
             </h2>
             <p><strong>Admin Swara </strong>Via WhatsApp</p>
             <p>+62 853 4968 8826</p>
