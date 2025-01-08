@@ -214,28 +214,28 @@
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Capaian Kami</h2>
     </div>
     <div class="grid md:grid-cols-3 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
-        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/20.png');">
+        <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/home1.png');">
             <div
                 class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
-                <h2 class="text-xl">Sebanyak <strong>11.751 </strong>Orang</h2>
-                <p class="text-lg">Jumlah <strong>Muzzaki & Munfiq</strong></p>
+                <h2 class="text-xl drop-shadow-md">Sebanyak <strong>11.751 </strong>Orang</h2>
+                <p class="text-lg drop-shadow-md">Jumlah <strong>Muzzaki & Munfiq</strong></p>
             </div>
         </div>
-        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/20.png');">
+        <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/home2.png');">
             <div
                 class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
-                <h2 class="text-xl">Sebanyak <strong> 24.125 </strong>Orang</h2>
-                <p class="text-lg">Jumlah <strong>Mustahik</strong></p>
+                <h2 class="text-2xl md:text-xl drop-shadow-md">Sebanyak <strong> 24.125 </strong>Orang</h2>
+                <p class="text-lg drop-shadow-md">Jumlah <strong>Mustahik</strong></p>
             </div>
         </div>
-        <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/20.png');">
+        <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/home3.png');">
             <div
                 class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
-                <h2 class="text-xl">Sebanyak <strong>16</strong></h2>
-                <p class="text-lg">Jumlah <strong>Mitra</strong></p>
+                <h2 class="text-xl drop-shadow-md">Lebih dari <strong>15</strong></h2>
+                <p class="text-lg drop-shadow-md">Jumlah <strong>Mitra</strong></p>
             </div>
         </div>
     </div>
@@ -269,7 +269,7 @@
         x-transition:leave="transition ease-in duration-300"
         x-transition:leave-start="opacity-100 transform translate-y-0"
         x-transition:leave-end="opacity-0 transform translate-y-2"
-        class=" fixed bottom-6 right-6 z-50absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+        class="fixed bottom-6 right-6 z-50 end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
         <button
             class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
             @click="window.scrollTo({ top: 0, behavior: 'smooth' })">
