@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about', ['title' => 'About'], ['name' => 'Emil Fauzan']);
+    return view('about', ['title' => 'Kenali Tim Swara']);
 });
 
 Route::get('/program', function () {

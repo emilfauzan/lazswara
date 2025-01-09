@@ -257,7 +257,6 @@
             <p><strong>Admin Swara </strong>Via WhatsApp</p>
             <p>+62 853 4968 8826</p>
         </div>
-
     </div>
     {{-- Hubungi Section End --}}
 
