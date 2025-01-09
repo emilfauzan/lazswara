@@ -114,21 +114,25 @@
     </div>
     {{-- Struktur Section End --}}
 
+    <div>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-8 drop-shadow-md">Legalitas</h2>
+    </div>
+
     {{-- Legalitas Section Start --}}
     <div class="grid grid-cols-1 my-4 break-words md:break-normal gap-4 items-stretch">
         <div class="content-center rounded-lg px-6 py-8 bg-gray-300/20 shadow items-stretch">
             <h2>
                 <ol class="list-decimal ml-5 leading-7">
                     <li>
-                        <strong>Akta Notaris: </strong> 
+                        <strong>Akta Notaris: </strong>
                         Nurleila, SH., M.Kn. Nomor Akta: 13 Tanggal 20 Juli 2017
                     </li>
                     <li>
-                        <strong>SK Menteri Hukum dan HAM: </strong> 
+                        <strong>SK Menteri Hukum dan HAM: </strong>
                         No. AHU-00111120.AH.01.04. Tahun 2017
                     </li>
                     <li>
-                        <strong>SK Kemenag Provinsi Kaltim: </strong> 
+                        <strong>SK Kemenag Provinsi Kaltim: </strong>
                         No 215 Tahun 2019
                     </li>
                 </ol>
