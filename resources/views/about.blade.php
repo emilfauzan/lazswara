@@ -11,10 +11,10 @@
             style="background-image: url('/img/kutim.png');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
-            <h2><strong>LAZ SINERGI Kutai Timur </strong>merupakan lembaga amil zakat yang berdiri sejak tahun 2019 dan
+            <h2><strong>LAZ SWARA Kutai Timur </strong>merupakan lembaga amil zakat yang berdiri sejak tahun 2019 dan
                 telah resmi mendapatkan izin operasional oleh Kementerian Agama Provinsi Kalimantan Timur dengan nomor
-                215 pada tanggal 3 Mei 2019. Dengan izin resmi tersebut menjadikan LAZ SINERGI sebagai lembaga zakat
-                pertama tingkat kabupaten yang berdiri di Kabupaten Kutai Timur. LAZ Sinergi Kutai Timur memiliki fungsi
+                215 pada tanggal 3 Mei 2019. Dengan izin resmi tersebut menjadikan LAZ SWARA sebagai lembaga zakat
+                pertama tingkat kabupaten yang berdiri di Kabupaten Kutai Timur. LAZ Swara Kutai Timur memiliki fungsi
                 untuk menghimpun, menyalurkan, dan mengelola dana zakat, infak, sedekah, dan dana sosial lainnya,
                 seperti CSR.
             </h2>

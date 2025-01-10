@@ -217,25 +217,25 @@
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home1.png');">
             <div
-                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
-                <h2 class="text-xl drop-shadow-md">Sebanyak <strong>11.751 </strong>Orang</h2>
-                <p class="text-lg drop-shadow-md">Jumlah <strong>Muzzaki & Munfiq</strong></p>
+                class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
+                <h2 class="text-3xl drop-shadow-md"><strong>Sebanyak 11.751 Orang</strong></h2>
+                <p class="text-xl drop-shadow-md"><strong>Jumlah Muzzaki & Munfiq</strong></p>
             </div>
         </div>
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home2.png');">
             <div
-                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
-                <h2 class="text-2xl md:text-xl drop-shadow-md">Sebanyak <strong> 24.125 </strong>Orang</h2>
-                <p class="text-lg drop-shadow-md">Jumlah <strong>Mustahik</strong></p>
+                class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
+                <h2 class="text-2xl md:text-3xl drop-shadow-md"><strong>Sebanyak 24.125 Orang</strong></h2>
+                <p class="text-xl drop-shadow-md"><strong>Jumlah Mustahik</strong></p>
             </div>
         </div>
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home3.png');">
             <div
-                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
-                <h2 class="text-xl drop-shadow-md">Lebih dari <strong>15</strong></h2>
-                <p class="text-lg drop-shadow-md">Jumlah <strong>Mitra</strong></p>
+                class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
+                <h2 class="text-3xl drop-shadow-md"><strong>Lebih dari 15</strong></h2>
+                <p class="text-xl drop-shadow-md"><strong>Jumlah Mitra</strong></p>
             </div>
         </div>
     </div>
