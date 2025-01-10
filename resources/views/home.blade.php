@@ -3,7 +3,7 @@
 
     {{-- Tabel Section Start --}}
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 mb-6 drop-shadow-md">Tabel Zakat</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mb-6 drop-shadow-md">Tabel Zakat</h2>
     </div>
     <div class="grid grid-cols-5 my-4 break-words md:break-normal items-stretch min-h-[150px]">
 
@@ -211,7 +211,7 @@
 
     {{-- Capaian Section Start --}}
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Capaian Kami</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-4 drop-shadow-md">Capaian Kami</h2>
     </div>
     <div class="grid md:grid-cols-3 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
@@ -243,7 +243,7 @@
 
     {{-- Hubungi Section Start --}}
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 my-4 drop-shadow-md">Hubungi Kami</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-4 drop-shadow-md">Hubungi Kami</h2>
     </div>
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 h-screen md:h-80 items-stretch">
         <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
