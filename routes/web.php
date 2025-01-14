@@ -11,5 +11,9 @@ Route::get('/about', function () {
 });
 
 Route::get('/program', function () {
-    return view('program', ['title' => 'Program'], ['nama' => 'Emil']);
+    return view('program', ['title' => 'Program Kami']);
+});
+
+Route::get('/zakat', function () {
+    return view('zakat', ['title' => 'Makna Berzakat']);
 });
