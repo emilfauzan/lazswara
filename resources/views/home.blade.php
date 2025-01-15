@@ -211,29 +211,27 @@
 
     {{-- Capaian Section Start --}}
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-4 drop-shadow-md">Capaian Kami</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-4 drop-shadow-md">Capaian Kami
+        </h2>
     </div>
     <div class="grid md:grid-cols-3 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home1.png');">
-            <div
-                class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
+            <div class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
                 <h2 class="text-3xl drop-shadow-md"><strong>Sebanyak 11.751 Orang</strong></h2>
                 <p class="text-xl drop-shadow-md"><strong>Jumlah Muzzaki & Munfiq</strong></p>
             </div>
         </div>
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home2.png');">
-            <div
-                class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
+            <div class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
                 <h2 class="text-2xl md:text-3xl drop-shadow-md"><strong>Sebanyak 24.125 Orang</strong></h2>
                 <p class="text-xl drop-shadow-md"><strong>Jumlah Mustahik</strong></p>
             </div>
         </div>
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home3.png');">
-            <div
-                class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
+            <div class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
                 <h2 class="text-3xl drop-shadow-md"><strong>Lebih dari 15</strong></h2>
                 <p class="text-xl drop-shadow-md"><strong>Jumlah Mitra</strong></p>
             </div>
@@ -243,7 +241,8 @@
 
     {{-- Hubungi Section Start --}}
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-4 drop-shadow-md">Hubungi Kami</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-4 drop-shadow-md">Hubungi Kami
+        </h2>
     </div>
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 h-screen md:h-80 items-stretch">
         <div class="bg-cover bg-top rounded-lg shadow w-full items-center"
