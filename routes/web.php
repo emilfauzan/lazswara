@@ -17,3 +17,11 @@ Route::get('/program', function () {
 Route::get('/zakat', function () {
     return view('zakat', ['title' => 'Makna Berzakat']);
 });
+
+Route::get('/laporan', function () {
+    return view('laporan', ['title' => 'Layanan Zakat']);
+});
+
+Route::get('/rekening', function () {
+    return view('rekening', ['title' => 'Layanan Zakat']);
+});
