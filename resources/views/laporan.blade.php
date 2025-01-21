@@ -1,129 +1,60 @@
 <x-layout>
     <x-slot:title>{{ $title }}</x-slot:title>
 
-    {{-- Firman Section Start --}}
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
-        </div>
-        <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
-            <h2 class="text-2xl font-extrabold mb-4">Firman Allah Tentang Zakat</h2>
-            <h2 class="font-arabic p-4 text-ar text-2xl font-bold">
-                خُذْ مِنْ اَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيْهِمْ بِهَا وَصَلِّ عَلَيْهِمْۗ اِنَّ صَلٰوتَكَ
-                سَكَنٌ لَّهُمْۗ وَاللّٰهُ سَمِيْعٌ عَلِيْمٌ۝ اَلَمْ يَعْلَمُوْٓا اَنَّ اللّٰهَ هُوَ يَقْبَلُ التَّوْبَةَ
-                عَنْ عِبَادِهٖ وَيَأْخُذُ الصَّدَقٰتِ وَاَنَّ اللّٰهَ هُوَ التَّوَّابُ الرَّحِيْمُ۝
-            </h2>
-            <h2>“Ambillah zakat dari sebagian harta mereka, dengan zakat itu kamu membersihkan dan menyucikan mereka dan
-                mendoalah untuk mereka. Sesungguhnya doa kamu itu (menjadi) ketenteraman jiwa bagi mereka. Dan Allah
-                Maha Mendengar lagi Maha Mengetahui. Tidaklah mereka mengetahui bahwa Allah menerima taubat dari
-                hamba-hamba-Nya dan menerima zakat, dan bahwasanya Allah Maha Penerima taubat lagi Maha
-                Penyayang?”<strong> (Q.S At-Taubah: 103-104)</strong>
-            </h2>
-        </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+    {{-- Sub-Title Section Start --}}
+    <div>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mb-6 drop-shadow-md">Laporan Keuangan
+            Kami</h2>
+    </div>
+    {{-- Sub-Title Section End --}}
+
+    {{-- Banner Setion Start --}}
+    <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
+        <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/program5.png');">
+
+            <div
+                class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64 px-8">
+                <h2 class="text-xl drop-shadow-md">Sebagai bentuk <strong>transparansi dan tanggung jawab</strong>, kami
+                    membuat laporan keuangan setiap tahun yang dapat diakses dibawah ini.</h2>
+                {{-- <p class="text-lg drop-shadow-md">Lorem, ipsum. <strong>Lorem, ipsum.</strong></p> --}}
+            </div>
         </div>
     </div>
-    {{-- Firman Section End --}}
+    {{-- Banner Setion End --}}
 
-    {{-- Pengertian Section Start --}}
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
-        </div>
-        <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
-            <h2 class="text-2xl font-extrabold mb-4">Pengertian Zakat</h2>
+    {{-- Laporan Section Start --}}
+    <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4">
 
-            <h2><strong>Zakat </strong>adalah rukun Islam ketiga dari lima rukun yang menjadi
-                pondasinya. Zakat menurut bahasa artinya bersih dan berkembang. Dinyatakan bersih karena zakat
-                membersihkan muzakki dari dosa dan mengembangkan pahalanya, selain itu zakat juga memperbanyak harta dan
-                membuatnya menjadi keberkahan. Di samping itu pula, zakat mampu membersihkan hati orang-orang kaya dari
-                penyakit kikir dan bakhil. Zakat juga merupakan ibadah dengan nilai sosial yang tinggi. Ia bisa memberi
-                dampak positif terhadap kesejahteraan masyarakat.
-            </h2>
+
+        <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+            <ul>
+                <li>
+                    <p class="text-lg drop-shadow-md"><strong>
+                            1. Laporan Keuangan 2020 &#11208;
+                        </strong></p>
+                </li>
+            </ul>
         </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+            <ul>
+                <li>
+                    <p class="text-lg drop-shadow-md"><strong>
+                            2. Laporan Keuangan 2021 &#11208;
+                        </strong></p>
+                </li>
+            </ul>
+        </div>
+        <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+            <ul>
+                <li>
+                    <p class="text-lg drop-shadow-md"><strong>
+                            3. Laporan Keuangan 2022 &#11208;
+                        </strong></p>
+                </li>
+            </ul>
         </div>
     </div>
-    {{-- Pengertian Section End --}}
-
-    {{-- Jenis Section Start --}}
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
-        </div>
-        <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
-            <h2 class="text-2xl font-extrabold mb-4">Jenis Zakat</h2>
-            <h2>
-                <ol class="list-decimal ml-5">
-                    <li>
-                        <strong>Zakat Fitrah <br></strong>
-                        <h2>Zakat fitrah adalah zakat yang diperintahkan Nabi Muhammad kepada
-                            umat Islam pada waktu diwajibkannya puasa di Bulan Ramadhan sampai hari terakhir bulan
-                            ramadhan sebelum
-                            shalat Idul Fitri. Zakat fitrah dapat dibayarkan berupa beras sebanyak 2,5 kg.</h2>
-                    </li>
-                    <li>
-                        <strong>Zakat Maal <br></strong>
-                        <h2>Zakat maal
-                            atau zakat harta merupakan zakat yang berkaitan dengan kepemilikan harta tertentu dan
-                            memenuhi syarat
-                            tertentu. Zakat maal meliputi zakat tumbuhan, zakat binatang ternak, zakat perniagaan, zakat
-                            barang
-                            tambang, serta zakat emas dan perak.</h2>
-                    </li>
-                </ol>
-            </h2>
-        </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
-        </div>
-    </div>
-    {{-- Jenis Section End --}}
-
-    {{-- Syarat Section Start --}}
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
-        </div>
-        <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
-            <h2 class="text-2xl font-extrabold mb-4">Syarat Zakat</h2>
-            <h2>Berzakat juga memiliki syarat, diantaranya:</h2>
-            <h2>
-                <ol class="list-decimal ml-5">
-                    <li>
-                        Beragama Islam
-                    </li>
-                    <li>
-                        Berakal sehat dan dewasa
-                    </li>
-                    <li>
-                        Kepemilikan
-                        sempurna
-                    </li>
-                    <li>
-                        Muslim yang merdeka
-                    </li>
-                    <li>
-                        Harta berkembang (produktif atau berpotensi produktif)
-                    </li>
-                    <li>
-                        Mencapai nishab
-                    </li>
-                    <li>
-                        Kepemilikannya satu tahun penuh (haul)
-                    </li>
-                    <li>
-                        Bebas dari hutang
-                    </li>
-                </ol>
-            </h2>
-        </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
-        </div>
-    </div>
-    {{-- Syarat Section End --}}
+    {{-- Laporan Section End --}}
 
 </x-layout>

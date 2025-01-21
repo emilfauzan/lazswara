@@ -37,28 +37,23 @@
                         x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
                         class="invisible md:visible absolute right-0 z-10 mt-2 w-64 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none"
                         role="menu" aria-orientation="vertical" aria-labelledby="user-layanan-button" tabindex="-1">
-                        <div class="p-4">
-                            <div class="group relative flex gap-x-6 rounded-lg p-4">
+                            <div class="group relative rounded-lg p-4">
                                 <div>
                                     <x-nav-link href='/laporan' :active="request()->is('laporan')">
                                         Laporan Keuangan
-                                        <p class="mt-1 text-xs font-medium text-gray-900">Lihat laporan keuangan kami
-                                        </p>
                                     </x-nav-link>
                                 </div>
                             </div>
 
                             <div class="border-t border-gray-300 my-2"></div>
 
-                            <div class="group relative flex gap-x-6 rounded-lg p-4">
+                            <div class="group relative rounded-lg p-4">
                                 <div>
                                     <x-nav-link href='/rekening' :active="request()->is('rekening')">
                                         Rekening Kami
-                                        <p class="mt-1 text-xs font-medium text-gray-900">Lihat nomor rekening kami</p>
                                     </x-nav-link>
                                 </div>
                             </div>
-                        </div>
 
                     </div>
                 </div>
