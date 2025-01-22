@@ -33,38 +33,55 @@
                 </li>
             </ul>
         </div>
-        <div class="content-center rounded-lg justify-center items-center px-8 py-4">
-            <div class="grid grid-cols-5 gap-2 mx-2 my-2">
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+        <div class="content-center rounded-lg justify-center items-center px-2 py-4">
+            <div class="grid grid-cols-10 gap-2 mx-2 my-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-2">
                     <p>Bank Muamalat</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
                     <p>a/n Sinergi Membangun Ummat</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3">
                     <p>6050010011</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p>Copy</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p><strong>QRIS</strong></p>
                 </div>
             </div>
-            <div class="grid grid-cols-5 gap-2 mx-2 my-2">
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+            <div class="grid grid-cols-10 gap-2 mx-2 my-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-2">
                     <p>Bank Syariah Indonesia</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
                     <p>a/n LAZ Sinergi</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3">
                     <p>7179797903</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p>Copy</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
+                    <p><strong>QRIS</strong></p>
+                </div>
+            </div>
+            <div class="grid grid-cols-10 gap-2 mx-2 my-2">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-2">
+                    <p>Bank Syariah Indonesia</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
+                    <p>a/n LAZ Sinergi</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3">
+                    <p>7179797903</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
+                    <p>Copy</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p><strong>QRIS</strong></p>
                 </div>
             </div>
