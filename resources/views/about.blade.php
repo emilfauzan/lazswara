@@ -94,7 +94,7 @@
             </h2>
         </div>
     </div>
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch text-center">
+    <div class="grid md:grid-cols-3 my-4 break-words md:break-normal gap-4 items-stretch text-center">
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
                 style="background-image: url('/img/struktur4.png');">
@@ -109,6 +109,14 @@
             </div>
             <h2><strong>Amanda Stevany Nurvita</strong> <br>
                 Staff Bidang Media dan Informasi
+            </h2>
+        </div>
+        <div class="content-start rounded-lg px-6 py-8 bg-white">
+            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
+                style="background-image: url('/img/.png');">
+            </div>
+            <h2><strong>Lorem, ipsum.</strong> <br>
+                Lorem ipsum dolor sit amet.
             </h2>
         </div>
     </div>
