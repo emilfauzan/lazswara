@@ -230,11 +230,10 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>7179797903</p>
                 </div>
-                <div x-data="{ copied: false }"
+                <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
-                    <button
-                        @click="navigator.clipboard.writeText('7179797903'); copied = true; setTimeout(() => copied = false, 2000)"
-                        <p>Copy</p>
+                    <button onclick="copyToClipboard()">
+                        Copy
                     </button>
                 </div>
                 <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
@@ -283,4 +282,6 @@
 
 
 
+    
+    
 </x-layout>
