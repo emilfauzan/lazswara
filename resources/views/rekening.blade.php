@@ -33,7 +33,6 @@
                 </li>
             </ul>
         </div>
-
         <div class="content-center rounded-lg justify-center items-center px-2 py-4">
             <div class="grid grid-cols-2 gap-2 mx-2 my-2 mb-4">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center"
@@ -55,11 +54,64 @@
                     <p><strong>QRIS</strong></p>
                 </div>
             </div>
-
             <div class="border-b-2">
-
             </div>
-            
+            <div class="grid grid-cols-2 gap-2 mx-2 mb-4 mt-8">
+                <div class="bg-contain bg-no-repeat bg-center w-full items-center"
+                    style="background-image: url('/img/rekening2.png');">
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>a/n LAZ Sinergi</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-6">
+                <div
+                    class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
+                    <p>7179797903</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>Copy</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p><strong>QRIS</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{--  --}}
+    <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 md:hidden">
+        <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
+            <ul>
+                <li>
+                    <p class="text-lg drop-shadow-md"><strong>
+                            2. Rekening Infaq &#x1F87E;
+                        </strong></p>
+                </li>
+            </ul>
+        </div>
+        <div class="content-center rounded-lg justify-center items-center px-2 py-4">
+            <div class="grid grid-cols-2 gap-2 mx-2 my-2 mb-4">
+                <div class="bg-contain bg-no-repeat bg-center w-full items-center"
+                    style="background-image: url('/img/rekening.png');">
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>a/n Sinergi Membangun Ummat</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-8">
+                <div
+                    class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
+                    <p>6050010011</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>Copy</p>
+                </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p><strong>QRIS</strong></p>
+                </div>
+            </div>
+            <div class="border-b-2">
+            </div>
             <div class="grid grid-cols-2 gap-2 mx-2 mb-4 mt-8">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center"
                     style="background-image: url('/img/rekening2.png');">
@@ -86,7 +138,7 @@
     {{-- Rekening Zakat Mobile Section End --}}
 
     {{-- Rekening Zakat Section Start --}}
-    <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:visible">
+    <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:block">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
             <ul>
                 <li>
@@ -96,7 +148,6 @@
                 </li>
             </ul>
         </div>
-
         <div class="content-center rounded-lg justify-center items-center px-2 py-4">
             <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
@@ -116,7 +167,6 @@
                     <p><strong>QRIS</strong></p>
                 </div>
             </div>
-
             <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
                     style="background-image: url('/img/rekening2.png');">
@@ -135,13 +185,12 @@
                     <p><strong>QRIS</strong></p>
                 </div>
             </div>
-
         </div>
     </div>
     {{-- Rekening Zakat Section End --}}
 
     {{-- Rekening Infaq Section Start --}}
-    <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4">
+    <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:block">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
             <ul>
                 <li>
@@ -151,7 +200,6 @@
                 </li>
             </ul>
         </div>
-
         <div class="content-center rounded-lg justify-center items-center px-2 py-4">
             <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
