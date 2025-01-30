@@ -25,35 +25,43 @@
 
     {{-- Laporan Section Start --}}
     <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4">
-
-
-        <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
-            <ul>
-                <li>
-                    <p class="text-lg drop-shadow-md"><strong>
+        {{-- Laporan Akhir Tahun 2020 --}}
+        <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2020.pdf') }}" target="_blank">
+            <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+                <ul>
+                    <li class="text-lg drop-shadow-md">
+                        <strong>
                             1. Laporan Keuangan 2020 &#11208;
-                        </strong></p>
-                </li>
-            </ul>
-        </div>
-        <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
-            <ul>
-                <li>
-                    <p class="text-lg drop-shadow-md"><strong>
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </a>
+        {{-- Laporan Akhir Tahun 2021 --}}
+        <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2021.pdf') }}" target="_blank">
+            <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+                <ul>
+                    <li class="text-lg drop-shadow-md">
+                        <strong>
                             2. Laporan Keuangan 2021 &#11208;
-                        </strong></p>
-                </li>
-            </ul>
-        </div>
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    {{-- Laporan Akhir Tahun 2022 --}}
+    <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2022.pdf') }}" target="_blank">
         <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
             <ul>
-                <li>
-                    <p class="text-lg drop-shadow-md"><strong>
-                            3. Laporan Keuangan 2022 &#11208;
-                        </strong></p>
+                <li class="text-lg drop-shadow-md">
+                    <strong>
+                        3. Laporan Keuangan 2022 &#11208;
+                    </strong>
                 </li>
             </ul>
         </div>
+    </a>
     </div>
     {{-- Laporan Section End --}}
 
