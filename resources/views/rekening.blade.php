@@ -189,6 +189,7 @@
     </div>
     {{-- Rekening Zakat Section End --}}
 
+    
     {{-- Rekening Infaq Section Start --}}
     <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:block">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
