@@ -189,7 +189,7 @@
     </div>
     {{-- Rekening Zakat Section End --}}
 
-    
+
     {{-- Rekening Infaq Section Start --}}
     <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:block">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
@@ -231,8 +231,7 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>7179797903</p>
                 </div>
-                <div
-                    class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <button onclick="copyToClipboard()">
                         Copy
                     </button>
@@ -244,7 +243,7 @@
                         <strong>QRIS</strong>
                     </button>
                     <!-- Modal -->
-                    <div x-show="i2" class="fixed inset-0 flex items-center justify-center z-10">
+                    <div x-show="i2" class="fixed inset-0 z-10 flex items-center justify-center overflow-y-auto">
                         <!-- Background Overlay (Click outside to close) -->
                         <div class="fixed inset-0 bg-gray-500/75 transition-opacity ease-out duration-300"
                             x-show="i2" x-transition:enter="ease-out duration-300"
@@ -262,8 +261,12 @@
                             x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
                             x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
 
-                            <h3 class="text-lg font-semibold text-gray-900">QRIS Rekening Infaq - Bank Muamalat</h3>
-                            <p class="mt-2 text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing.
+                            <h3 class="text-lg text-center font-semibold text-gray-900">QRIS Rekening Infaq - Bank Muamalat</h3>
+
+                            <div class="w-auto h-96 bg-contain bg-fit bg-center bg-no-repeat" style="background-image: url('/img/qi2.jpeg');">
+                            </div>
+
+                            <p class="mt-2 text-sm text-gray-500">Dapat langsung scan atau unduh gambar.
                             </p>
 
                             <div class="mt-4 flex justify-end">
@@ -283,6 +286,6 @@
 
 
 
-    
-    
+
+
 </x-layout>
