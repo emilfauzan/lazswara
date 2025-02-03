@@ -9,19 +9,6 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <title>Home</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-    <script>
-        function copyToClipboard() {
-            const textToCopy = "7179797903"; // Text to copy
-            navigator.clipboard.writeText(textToCopy).then(() => {
-                const message = document.getElementById("copyMessage");
-                message.textContent = "Copied to clipboard!";
-                message.classList.remove("hidden");
-                setTimeout(() => message.classList.add("hidden"), 2000); // Hide after 2s
-            }).catch(err => {
-                console.error("Copy failed", err);
-            });
-        }
-    </script>
 </head>
 
 <body class="h-full">
