@@ -1,7 +1,7 @@
-{{-- Footer Section --}}
+{{-- Footer Section Start --}}
 <footer class="bg-white mt-4 rounded-b-lg">
 
-    {{-- Alert --}}
+    {{-- Alert Section Start --}}
     <div class="bg-orange-400 rounded-t-lg px-4 py-8 flex">
         <div class="mx-8 content-center">
             <svg class="size-12" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
@@ -16,11 +16,12 @@
                 dilarang oleh Syariat.</p>
         </div>
     </div>
+    {{-- Alert Section End --}}
 
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="lg:grid lg:grid-cols-2">
 
-            {{-- Right Footer Section --}}
+            {{-- Right Footer Section Start --}}
             <div class="border-b border-gray-100 py-8 lg:order-last lg:border-b-0 lg:border-s lg:py-16 lg:ps-16">
                 <div class="block text-teal-600 lg:hidden">
                     <img class="justify-self-center size-36" src="img/logosquare.PNG" alt="LAZ Swara">
@@ -62,8 +63,9 @@
                     </a>
                 </div>
             </div>
+            {{-- Right Footer Section End --}}
 
-            {{-- Left Footer Section --}}
+            {{-- Left Footer Section Start --}}
             <div class="py-8 lg:py-16 lg:pe-16">
                 <div class="hidden text-teal-600 lg:block">
                     <img class="justify-self-center size-36" src="img/logosquare.PNG" alt="LAZ Swara">
@@ -71,7 +73,9 @@
 
                 <div
                     class="mt-8 grid grid-cols-1 gap-8 justify-items-center text-center lg:justify-items-start lg:text-left">
-                    <div class="">
+
+                    {{-- Navigation Section Start --}}
+                    <div>
                         <p class="text-lg font-medium text-gray-900">Navigasi</p>
 
                         <ul class="mt-6 space-y-4 text-sm">
@@ -96,18 +100,20 @@
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Laporan </a>
+                                <a href="/laporan" class="text-gray-700 transition hover:opacity-75"> Laporan </a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-gray-700 transition hover:opacity-75"> Rekening </a>
+                                <a href="/rekening" class="text-gray-700 transition hover:opacity-75"> Rekening </a>
                             </li>
                         </ul>
                     </div>
+                    {{-- Navigation Section End --}}
 
+                    {{-- Contact Us Section Start --}}
                     <p class="mt-4 text-lg font-medium text-gray-900">Hubungi Kami</p>
                     <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                        href="#">
+                        href="http://wa.me/6285349688826" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" class="size-5 shrink-0 text-gray-900" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -116,39 +122,28 @@
 
                         <span class="flex-1 text-gray-700">+62853 4968 8826 - Admin Swara</span>
                     </a>
-                    <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"
-                        href="#">
+                    <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
                         <svg xmlns="http://www.w3.org/2000/svg" class="size-5 shrink-0 text-gray-900" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
-
-                        <span class="flex-1 text-gray-700">sinergimembangunummat@gmail.com</span>
+                        <button email-copy class="copyButton cursor-pointer flex-1 text-gray-700">
+                            <p>
+                                sinergimembangunummat@gmail.com
+                            </p>
+                        </button>
                     </a>
+                    {{-- Contact Us Section End --}}
+
                 </div>
 
-                <div class="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-16">
-                    <ul class="justify-items-center sm:flex sm:flex-wrap gap-4 text-xs">
-                        <li>
-                            <a href="#" class="text-gray-500 transition hover:opacity-75"> Terms &
-                                Conditions </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="text-gray-500 transition hover:opacity-75"> Privacy Policy
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="text-gray-500 transition hover:opacity-75"> Cookies </a>
-                        </li>
-                    </ul>
-
-                    <ul class="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
-                        <li>
+                {{-- Social Media Section Start --}}
+                <div class="mt-16 border-t border-gray-100 pt-8 items-center ">
+                    <ul class="mt-2 flex justify-center gap-6 sm:mt-0">
+                        <li class="cursor-pointer">
                             <a href="#" rel="noreferrer" target="_blank"
-                                class="text-gray-700 transition hover:opacity-75">
+                                class="text-gray-700 transition hover:opacity-75 p-8">
                                 <span class="sr-only">Facebook</span>
 
                                 <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -159,9 +154,9 @@
                             </a>
                         </li>
 
-                        <li>
+                        <li class="cursor-pointer">
                             <a href="#" rel="noreferrer" target="_blank"
-                                class="text-gray-700 transition hover:opacity-75">
+                                class="text-gray-700 transition hover:opacity-75 p-8">
                                 <span class="sr-only">Instagram</span>
 
                                 <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -174,8 +169,8 @@
 
                         <li>
                             <a href="#" rel="noreferrer" target="_blank"
-                                class="text-gray-700 transition hover:opacity-75">
-                                <span class="sr-only">YouTube</span>
+                                class="text-gray-700 transition hover:opacity-75 p-8">
+                                <span class="sr-only">WhatsApp</span>
                                 <svg class="size-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                     <path
@@ -186,8 +181,8 @@
 
                         <li>
                             <a href="#" rel="noreferrer" target="_blank"
-                                class="text-gray-700 transition hover:opacity-75">
-                                <span class="sr-only">WhatsApp</span>
+                                class="text-gray-700 transition hover:opacity-75 p-8">
+                                <span class="sr-only">Youtube</span>
                                 <svg class="size-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                     <path
@@ -197,9 +192,69 @@
                         </li>
                     </ul>
                 </div>
+                {{-- Social Media Section End  --}}
+
                 <p class="mt-8 text-xs text-center text-gray-500">Copyright &copy; 2024 <strong>LAZ Swara </strong>
                     by Emil Fauzan</p>
             </div>
+            {{-- Left Footer Section End --}}
+
         </div>
     </div>
 </footer>
+{{-- Footer Section End --}}
+
+<!-- Modal Overlay (Success Message) Start -->
+<div id="emailcopySuccessModal"
+    class="fixed bottom-4 right-4 sm:bottom-0 sm:right-0 sm:left-0 flex items-center justify-center sm:justify-center bg-black bg-opacity-50 opacity-0 pointer-events-none transition-opacity duration-300">
+    <div class="bg-teal-700/30 px-6 py-4 rounded-md shadow-md text-center w-auto sm:w-full sm:rounded-none">
+        <p
+            class="text-white font-semibold flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-white"
+                viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path fill="#ffffff"
+                    d="M192 0c-41.8 0-77.4 26.7-90.5 64L64 64C28.7 64 0 92.7 0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-37.5 0C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+            </svg>
+            Email copied successfully!
+        </p>
+    </div>
+</div>
+<!-- Modal Overlay (Success Message) End -->
+
+<script>
+    function copyToClipboardFallback(text) {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        showModal();
+    }
+
+    function showModal() {
+        const modal = document.getElementById("emailcopySuccessModal");
+        modal.classList.remove("opacity-0", "pointer-events-none");
+
+        setTimeout(() => {
+            modal.classList.add("opacity-0", "pointer-events-none");
+        }, 5000);
+    }
+
+    document.querySelectorAll("[email-copy]").forEach(button => {
+        button.addEventListener("click", function() {
+            const text = "sinergimembangunummat@gmail.com";
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text)
+                    .then(() => showModal())
+                    .catch(err => {
+                        console.error("Clipboard Error: ", err);
+                        copyToClipboardFallback(text);
+                    });
+            } else {
+                copyToClipboardFallback(text);
+            }
+        });
+    });
+</script>
