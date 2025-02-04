@@ -113,10 +113,10 @@
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/.png');">
+                style="background-image: url('/img/struktur6.png');">
             </div>
-            <h2><strong>Lorem, ipsum.</strong> <br>
-                Lorem ipsum dolor sit amet.
+            <h2><strong>Tegas Ahmad Ismunandar</strong> <br>
+                Staff Bidang Pendistribusian
             </h2>
         </div>
     </div>
@@ -132,16 +132,16 @@
             <h2>
                 <ol class="list-decimal ml-5 leading-7">
                     <li>
+                        <strong>NPWP: </strong>
+                        39.015.875.6-724.000
+                    </li>
+                    <li>
                         <strong>Akta Notaris: </strong>
-                        Nurleila, SH., M.Kn. Nomor Akta: 13 Tanggal 20 Juli 2017
+                        Rosita, S.H.,M.Kn. Nomor Akta: 39 Tanggal 19 Desember 2022
                     </li>
                     <li>
                         <strong>SK Menteri Hukum dan HAM: </strong>
-                        No. AHU-00111120.AH.01.04. Tahun 2017
-                    </li>
-                    <li>
-                        <strong>SK Kemenag Provinsi Kaltim: </strong>
-                        No 215 Tahun 2019
+                        SK Kemenkunham: No. AHU-0026040.AH.01.04.Tahun 2022
                     </li>
                 </ol>
             </h2>

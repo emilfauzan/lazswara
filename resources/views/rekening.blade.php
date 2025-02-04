@@ -40,17 +40,20 @@
                     style="background-image: url('/img/rekening.png');">
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>a/n Sinergi Membangun Ummat</p>
+                    <p>a/n Y Swara MU Zakat</p>
                 </div>
             </div>
             <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-8">
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
-                    <p>6050010011</p>
+                    <p>72 9593 1463</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>Copy</p>
-                </div>
+                <button rz1-copy
+                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
+                    <p>
+                        Copy
+                    </p>
+                </button>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
                     <p><strong>QRIS</strong></p>
                 </div>
@@ -102,11 +105,14 @@
             <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-8">
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
-                    <p>6050010011</p>
+                    <p>72 9593 1412</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>Copy</p>
-                </div>
+                <button ri2-copy
+                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
+                    <p>
+                        Copy
+                    </p>
+                </button>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
                     <p><strong>QRIS</strong></p>
                 </div>
@@ -126,12 +132,9 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
                     <p>7179797903</p>
                 </div>
-                <button data-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
-                        Copy
-                    </p>
-                </button>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>Copy</p>
+                </div>
                 <!-- QRIS Button Start -->
                 <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
                     <button @click="i2 = true"
@@ -198,15 +201,18 @@
                     style="background-image: url('/img/rekening.png');">
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
-                    <p>a/n Sinergi Membangun Ummat</p>
+                    <p>a/n Y Swara MU Zakat</p>
                 </div>
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
-                    <p>6050010011</p>
+                    <p>72 9593 1463</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
-                    <p>Copy</p>
-                </div>
+                <button rz1-copy
+                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
+                    <p>
+                        Copy
+                    </p>
+                </button>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p><strong>QRIS</strong></p>
                 </div>
@@ -254,11 +260,14 @@
                 </div>
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
-                    <p>6050010011</p>
+                    <p>72 9593 1412</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
-                    <p>Copy</p>
-                </div>
+                <button ri2-copy
+                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
+                    <p>
+                        Copy
+                    </p>
+                </button>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p><strong>QRIS</strong></p>
                 </div>
@@ -274,12 +283,9 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>7179797903</p>
                 </div>
-                <button data-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
-                        Copy
-                    </p>
-                </button>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>Copy</p>
+                </div>
                 <!-- QRIS Button Start -->
                 <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
                     <button @click="i2 = true"
@@ -326,23 +332,6 @@
     </div>
     {{-- Rekening Infaq Section End --}}
 
-    <!-- Modal Overlay (Success Message) Start -->
-    <div id="copySuccessModal"
-        class="fixed bottom-4 right-4 sm:bottom-0 sm:right-0 sm:left-0 flex items-center justify-center sm:justify-center bg-black bg-opacity-50 opacity-0 pointer-events-none transition-opacity duration-300">
-        <div class="bg-teal-700/30 px-6 py-4 rounded-md shadow-md text-center w-auto sm:w-full sm:rounded-none">
-            <p
-                class="text-white font-semibold flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
-                <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-white"
-                    viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path fill="#ffffff"
-                        d="M192 0c-41.8 0-77.4 26.7-90.5 64L64 64C28.7 64 0 92.7 0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-37.5 0C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
-                </svg>
-                Number copied successfully!
-            </p>
-        </div>
-    </div>
-    <!-- Modal Overlay (Success Message) End -->
-
     <script>
         document.getElementById('unduhButton').addEventListener('click', function() {
             const imageUrl = '/img/qi2.jpeg'; // Change to your dynamic image path
@@ -365,7 +354,7 @@
         }
 
         function showModal() {
-            const modal = document.getElementById("copySuccessModal");
+            const modal = document.getElementById("rekcopySuccessModal");
             modal.classList.remove("opacity-0", "pointer-events-none");
 
             setTimeout(() => {
@@ -373,9 +362,64 @@
             }, 5000);
         }
 
-        document.querySelectorAll("[data-copy]").forEach(button => {
+        // Rekening Zakat 1
+        document.querySelectorAll("[rz1-copy]").forEach(button => {
+            button.addEventListener("click", function() {
+                const text = "7295931463";
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text)
+                        .then(() => showModal())
+                        .catch(err => {
+                            console.error("Clipboard Error: ", err);
+                            copyToClipboardFallback(text);
+                        });
+                } else {
+                    copyToClipboardFallback(text);
+                }
+            });
+        });
+
+        // Rekening Zakat 2
+        document.querySelectorAll("[-copy]").forEach(button => {
             button.addEventListener("click", function() {
                 const text = "7179797903";
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text)
+                        .then(() => showModal())
+                        .catch(err => {
+                            console.error("Clipboard Error: ", err);
+                            copyToClipboardFallback(text);
+                        });
+                } else {
+                    copyToClipboardFallback(text);
+                }
+            });
+        });
+
+        // Rekening Infaq 1
+        document.querySelectorAll("[-copy]").forEach(button => {
+            button.addEventListener("click", function() {
+                const text = "7179797903";
+
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text)
+                        .then(() => showModal())
+                        .catch(err => {
+                            console.error("Clipboard Error: ", err);
+                            copyToClipboardFallback(text);
+                        });
+                } else {
+                    copyToClipboardFallback(text);
+                }
+            });
+        });
+
+        // Rekening Infaq 2
+        document.querySelectorAll("[ri2-copy]").forEach(button => {
+            button.addEventListener("click", function() {
+                const text = "7295931412";
 
                 if (navigator.clipboard && navigator.clipboard.writeText) {
                     navigator.clipboard.writeText(text)
