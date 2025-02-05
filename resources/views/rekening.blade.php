@@ -99,7 +99,7 @@
                     style="background-image: url('/img/rekening.png');">
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>a/n Sinergi Membangun Ummat</p>
+                    <p>a/n Swara MU Infaq</p>
                 </div>
             </div>
             <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-8">
@@ -135,49 +135,10 @@
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
                     <p>Copy</p>
                 </div>
-                <!-- QRIS Button Start -->
-                <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
-                    <button @click="i2 = true"
-                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
-                        <strong>QRIS</strong>
-                    </button>
-                    <!-- Modal -->
-                    <div x-show="i2"
-                        class="fixed inset-0 z-10 flex items-center justify-self-center overflow-y-auto">
-                        <!-- Background Overlay (Click outside to close) -->
-                        <div class="fixed inset-0 bg-gray-500/75 transition-opacity ease-out duration-300"
-                            x-show="i2" x-transition:enter="ease-out duration-300"
-                            x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
-                            x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100"
-                            x-transition:leave-end="opacity-0" @click="i2 = false">
-                        </div>
-                        <!-- Modal Content -->
-                        <div class="relative bg-white rounded-lg shadow-xl p-6 sm:w-full sm:max-w-lg transition-all"
-                            x-show="i2" x-transition:enter="ease-out duration-300"
-                            x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
-                            x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
-                            x-transition:leave="ease-in duration-200"
-                            x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
-                            x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
-                            <h3 class="text-lg text-center font-semibold text-gray-900">QRIS Rekening Infaq - Bank
-                                Muamalat</h3>
-                            <div class="w-auto h-96 bg-contain bg-fit bg-center bg-no-repeat"
-                                style="background-image: url('/img/qi2.jpeg');">
-                            </div>
-                            <p class="mt-2 text-sm text-gray-500">Dapat langsung scan atau unduh gambar.
-                            </p>
-                            <div class="mt-4 flex justify-end">
-                                <button @click="i2 = false"
-                                    class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Batal</button>
-                                <button id="unduhButton"
-                                    class="ml-3 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500">Unduh</button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                    <p><strong>QRIS</strong></p>
                 </div>
-                <!-- QRIS Button End -->
             </div>
-
         </div>
     </div>
     {{-- Rekening Mobile Section End --}}
@@ -256,7 +217,7 @@
                     style="background-image: url('/img/rekening.png');">
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
-                    <p>a/n Sinergi Membangun Ummat</p>
+                    <p>a/n Swara MU Infaq</p>
                 </div>
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
@@ -268,9 +229,50 @@
                         Copy
                     </p>
                 </button>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
-                    <p><strong>QRIS</strong></p>
+                <!-- QRIS Button Start -->
+                <div x-data="{ z2: false }" @keydown.escape.window="z2 = false" class="justify-self-center">
+                    <button @click="z2 = true"
+                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        <strong>QRIS</strong>
+                    </button>
+                    <!-- Modal -->
+                    <div x-show="z2"
+                        class="fixed inset-0 z-10 flex items-center justify-self-center overflow-y-auto">
+                        <!-- Background Overlay (Click outside to close) -->
+                        <div class="fixed inset-0 bg-gray-500/75 transition-opacity ease-out duration-300"
+                            x-show="z2" x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+                            x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100"
+                            x-transition:leave-end="opacity-0" @click="z2 = false">
+                        </div>
+                        <!-- Modal Content -->
+                        <div class="relative bg-white rounded-lg shadow-xl p-6 sm:w-full sm:max-w-lg transition-all"
+                            x-show="z2" x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                            x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+                            x-transition:leave="ease-in duration-200"
+                            x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+                            x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+                            <h3 class="text-lg text-center font-semibold text-gray-900">
+                                QZ2
+                                {{-- QRIS Rekening Infaq - Bank
+                                Muamalat --}}
+                            </h3>
+                            <div class="w-auto h-96 bg-contain bg-fit bg-center bg-no-repeat"
+                                style="background-image: url('/img/qz2.jpeg');">
+                            </div>
+                            <p class="mt-2 text-sm text-gray-500">Dapat langsung scan atau unduh gambar.
+                            </p>
+                            <div class="mt-4 flex justify-end">
+                                <button @click="z2 = false"
+                                    class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Batal</button>
+                                <button id="unduhz2Button"
+                                    class="ml-3 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500">Unduh</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- QRIS Button End -->
             </div>
             <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
@@ -335,6 +337,16 @@
     <script>
         document.getElementById('unduhButton').addEventListener('click', function() {
             const imageUrl = '/img/qi2.jpeg'; // Change to your dynamic image path
+            const link = document.createElement('a');
+            link.href = imageUrl;
+            link.download = 'QRIS_Infaq_Bank_Muamalat.jpeg'; // Set default download name
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+
+        document.getElementById('unduhz2Button').addEventListener('click', function() {
+            const imageUrl = '/img/qz2.jpeg'; // Change to your dynamic image path
             const link = document.createElement('a');
             link.href = imageUrl;
             link.download = 'QRIS_Infaq_Bank_Muamalat.jpeg'; // Set default download name
