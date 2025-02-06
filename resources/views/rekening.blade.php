@@ -334,7 +334,31 @@
     </div>
     {{-- Rekening Infaq Section End --}}
 
+    <div class="embla overflow-hidden">
+        <div class="embla__container flex">
+            <div class="embla__slide min-w-full">
+                <img src="/img/program1.png" class="w-full rounded-lg" alt="Image 1">
+            </div>
+            <div class="embla__slide min-w-full">
+                <img src="/img/program2.png" class="w-full rounded-lg" alt="Image 2">
+            </div>
+            <div class="embla__slide min-w-full">
+                <img src="/img/program3.jpeg" class="w-full rounded-lg" alt="Image 3">
+            </div>
+        </div>
+    </div>
+
     <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const emblaNode = document.querySelector(".embla");
+            const options = {
+                loop: true
+            }; // Enable infinite loop
+            const embla = EmblaCarousel(emblaNode, options);
+
+        });
+
+
         document.getElementById('unduhButton').addEventListener('click', function() {
             const imageUrl = '/img/qi2.jpeg'; // Change to your dynamic image path
             const link = document.createElement('a');
