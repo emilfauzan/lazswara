@@ -54,9 +54,49 @@
                         Copy
                     </p>
                 </button>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p><strong>QRIS</strong></p>
+                <!-- QRIS Button Start -->
+                <div x-data="{ z2: false }" @keydown.escape.window="z2 = false" class="justify-self-center">
+                    <button @click="z2 = true"
+                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        <strong>QRIS</strong>
+                    </button>
+                    <!-- Modal -->
+                    <div x-show="z2"
+                        class="fixed inset-0 z-10 flex items-center justify-self-center overflow-y-auto">
+                        <!-- Background Overlay (Click outside to close) -->
+                        <div class="fixed inset-0 bg-gray-500/75 transition-opacity ease-out duration-300"
+                            x-show="z2" x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+                            x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100"
+                            x-transition:leave-end="opacity-0" @click="z2 = false">
+                        </div>
+                        <!-- Modal Content -->
+                        <div class="relative bg-white rounded-lg shadow-xl p-6 sm:w-full sm:max-w-lg transition-all"
+                            x-show="z2" x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                            x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+                            x-transition:leave="ease-in duration-200"
+                            x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+                            x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+                            <h3 class="text-lg text-center font-semibold text-gray-900">
+                                QRIS Rekening Zakat - Bank
+                                Syariah Indonesia
+                            </h3>
+                            <div class="w-auto h-96 bg-contain bg-fit bg-center bg-no-repeat"
+                                style="background-image: url('/img/qz2.jpeg');">
+                            </div>
+                            <p class="mt-2 text-sm text-gray-500">Dapat langsung scan atau unduh gambar.
+                            </p>
+                            <div class="mt-4 flex justify-end">
+                                <button @click="z2 = false"
+                                    class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Batal</button>
+                                <button id="unduhz2Button"
+                                    class="ml-3 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500">Unduh</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- QRIS Button End -->
             </div>
         </div>
     </div>
@@ -91,9 +131,49 @@
                         Copy
                     </p>
                 </button>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p><strong>QRIS</strong></p>
+                <!-- QRIS Button Start -->
+                <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
+                    <button @click="i2 = true"
+                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        <strong>QRIS</strong>
+                    </button>
+                    <!-- Modal -->
+                    <div x-show="i2"
+                        class="fixed inset-0 z-10 flex items-center justify-self-center overflow-y-auto">
+                        <!-- Background Overlay (Click outside to close) -->
+                        <div class="fixed inset-0 bg-gray-500/75 transition-opacity ease-out duration-300"
+                            x-show="i2" x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100"
+                            x-transition:leave="ease-in duration-200" x-transition:leave-start="opacity-100"
+                            x-transition:leave-end="opacity-0" @click="i2 = false">
+                        </div>
+                        <!-- Modal Content -->
+                        <div class="relative bg-white rounded-lg shadow-xl p-6 sm:w-full sm:max-w-lg transition-all"
+                            x-show="i2" x-transition:enter="ease-out duration-300"
+                            x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                            x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+                            x-transition:leave="ease-in duration-200"
+                            x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+                            x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+                            <h3 class="text-lg text-center font-semibold text-gray-900">
+                                QRIS Rekening Infaq - Bank
+                                Syariah Indonesia
+                            </h3>
+                            <div class="w-auto h-96 bg-contain bg-fit bg-center bg-no-repeat"
+                                style="background-image: url('/img/qi2.jpeg');">
+                            </div>
+                            <p class="mt-2 text-sm text-gray-500">Dapat langsung scan atau unduh gambar.
+                            </p>
+                            <div class="mt-4 flex justify-end">
+                                <button @click="i2 = false"
+                                    class="px-4 py-2 bg-gray-300 rounded-md hover:bg-gray-400">Batal</button>
+                                <button id="unduhi2Button"
+                                    class="ml-3 px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500">Unduh</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- QRIS Button End -->
             </div>
             <div class="border-b-2">
             </div>
@@ -105,17 +185,17 @@
                     <p>a/n Yayasan Swara Mandiri Ummat</p>
                 </div>
             </div>
-            <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-6">
+            <div class="grid grid-cols-2 gap-2 mx-2 my-2 mb-6">
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
                     <p>056301001904562</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>Copy</p>
-                </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p><strong>QRIS</strong></p>
-                </div>
+                <button ri1-copy
+                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
+                    <p>
+                        Copy
+                    </p>
+                </button>
             </div>
         </div>
     </div>
@@ -146,12 +226,14 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>72 9593 1463</p>
                 </div>
-                <button rz1-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
-                        Copy
-                    </p>
-                </button>
+                <div class="justify-self-center">
+                    <button rz1-copy
+                        class="copyButton content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-3 py-3 cursor-pointer">
+                        <p>
+                            Copy
+                        </p>
+                    </button>
+                </div>
                 <!-- QRIS Button Start -->
                 <div x-data="{ z2: false }" @keydown.escape.window="z2 = false" class="justify-self-center">
                     <button @click="z2 = true"
@@ -223,12 +305,14 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>72 9593 1412</p>
                 </div>
-                <button ri2-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
-                        Copy
-                    </p>
-                </button>
+                <div class="justify-self-center">
+                    <button ri2-copy
+                        class="copyButton content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-3 py-3 cursor-pointer">
+                        <p>
+                            Copy
+                        </p>
+                    </button>
+                </div>
                 <!-- QRIS Button Start -->
                 <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
                     <button @click="i2 = true"
@@ -284,9 +368,12 @@
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>056301001904562</p>
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>Copy</p>
-                </div>
+                <button ri1-copy
+                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300 col-span-2">
+                    <p>
+                        Copy
+                    </p>
+                </button>
             </div>
         </div>
     </div>
@@ -530,26 +617,8 @@
             });
         });
 
-        // Rekening Zakat 2
-        document.querySelectorAll("[-copy]").forEach(button => {
-            button.addEventListener("click", function() {
-                const text = "056301001904562";
-
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    navigator.clipboard.writeText(text)
-                        .then(() => showModal())
-                        .catch(err => {
-                            console.error("Clipboard Error: ", err);
-                            copyToClipboardFallback(text);
-                        });
-                } else {
-                    copyToClipboardFallback(text);
-                }
-            });
-        });
-
         // Rekening Infaq 1
-        document.querySelectorAll("[-copy]").forEach(button => {
+        document.querySelectorAll("[ri1-copy]").forEach(button => {
             button.addEventListener("click", function() {
                 const text = "056301001904562";
 
