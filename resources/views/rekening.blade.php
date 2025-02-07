@@ -58,28 +58,6 @@
                     <p><strong>QRIS</strong></p>
                 </div>
             </div>
-            <div class="border-b-2">
-            </div>
-            <div class="grid grid-cols-2 gap-2 mx-2 mb-4 mt-8">
-                <div class="bg-contain bg-no-repeat bg-center w-full items-center"
-                    style="background-image: url('/img/rekening2.png');">
-                </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>a/n LAZ Sinergi</p>
-                </div>
-            </div>
-            <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-6">
-                <div
-                    class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
-                    <p>7179797903</p>
-                </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>Copy</p>
-                </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p><strong>QRIS</strong></p>
-                </div>
-            </div>
         </div>
     </div>
     {{-- Rekening Infaq --}}
@@ -121,16 +99,16 @@
             </div>
             <div class="grid grid-cols-2 gap-2 mx-2 mb-4 mt-8">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center"
-                    style="background-image: url('/img/rekening2.png');">
+                    style="background-image: url('/img/rekening3.png');">
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>a/n LAZ Sinergi</p>
+                    <p>a/n Yayasan Swara Mandiri Ummat</p>
                 </div>
             </div>
             <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-6">
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
-                    <p>7179797903</p>
+                    <p>056301001904562</p>
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
                     <p>Copy</p>
@@ -174,24 +152,6 @@
                         Copy
                     </p>
                 </button>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
-                    <p><strong>QRIS</strong></p>
-                </div>
-            </div>
-            <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
-                <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
-                    style="background-image: url('/img/rekening2.png');">
-                </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
-                    <p>a/n LAZ Sinergi</p>
-                </div>
-                <div
-                    class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
-                    <p>7179797903</p>
-                </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
-                    <p>Copy</p>
-                </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-1">
                     <p><strong>QRIS</strong></p>
                 </div>
@@ -254,9 +214,8 @@
                             x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
                             x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
                             <h3 class="text-lg text-center font-semibold text-gray-900">
-                                QZ2
-                                {{-- QRIS Rekening Infaq - Bank
-                                Muamalat --}}
+                                QRIS Rekening Infaq - Bank
+                                Syariah Indonesia
                             </h3>
                             <div class="w-auto h-96 bg-contain bg-fit bg-center bg-no-repeat"
                                 style="background-image: url('/img/qz2.jpeg');">
@@ -276,14 +235,14 @@
             </div>
             <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
-                    style="background-image: url('/img/rekening2.png');">
+                    style="background-image: url('/img/rekening3.png');">
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
-                    <p>a/n LAZ Sinergi</p>
+                    <p>a/n Yayasan Swara Mandiri Ummat</p>
                 </div>
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
-                    <p>7179797903</p>
+                    <p>056301001904562</p>
                 </div>
                 <div class="px-2 py-2 content-center text-center rounded-lg border-2">
                     <p>Copy</p>
@@ -418,7 +377,93 @@
         </div>
     </div>
 
+    <!-- Companies Carousel -->
+    <div class="embla overflow-hidden">
+        <div class="embla__viewport">
+            <div class="embla__container flex grid-cols-2 md:grid-cols-4 gap-4 items-center">
+                <!-- Example Logos -->
+                <div class="embla__slide">
+                    <img src="img/mp/mp1.png" class="object-contain w-full h-auto" alt="Company 1">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp2.png" class="object-contain w-full h-auto" alt="Company 2">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp3.png" class="object-contain w-full h-auto" alt="Company 3">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp4.png" class="object-contain w-full h-auto" alt="Company 4">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp5.png" class="object-contain w-full h-auto" alt="Company 5">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp6.png" class="object-contain w-full h-auto" alt="Company 6">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp7.png" class="object-contain w-full h-auto" alt="Company 7">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/mp/mp8.png" class="object-contain w-full h-auto" alt="Company 8">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Foundations Carousel -->
+    <div class="embla overflow-hidden">
+        <div class="embla__viewport">
+            <div class="embla__container flex grid-cols-2 md:grid-cols-4 gap-4 items-center">
+                <!-- Example Logos -->
+                <div class="embla__slide">
+                    <img src="img/my/my1.png" class="object-contain w-full h-auto" alt="Foundation 1">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my2.jpg" class="object-contain w-full h-auto" alt="Foundation 2">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my3.png" class="object-contain w-full h-auto" alt="Foundation 3">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my4.png" class="object-contain w-full h-auto" alt="Foundation 4">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my5.png" class="object-contain w-full h-auto" alt="Foundation 5">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my6.png" class="object-contain w-full h-auto" alt="Foundation 6">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my7.jpeg" class="object-contain w-full h-auto" alt="Foundation 7">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my8.jpeg" class="object-contain w-full h-auto" alt="Foundation 8">
+                </div>
+                <div class="embla__slide">
+                    <img src="img/my/my9.png" class="object-contain w-full h-auto" alt="Foundation 9">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const emblaOptions = {
+                loop: true,
+                containScroll: "trimSnaps"
+            };
+
+            document.querySelectorAll(".embla").forEach((emblaNode) => {
+                const viewport = emblaNode.querySelector(".embla__viewport");
+                const emblaInstance = EmblaCarousel(viewport, emblaOptions);
+
+                // Log if Embla initializes correctly
+                console.log("Embla initialized:", emblaInstance);
+            });
+        });
+
+
         document.addEventListener("DOMContentLoaded", () => {
             const emblaNode = document.querySelector(".embla");
             const options = {
@@ -489,7 +534,7 @@
         // Rekening Zakat 2
         document.querySelectorAll("[-copy]").forEach(button => {
             button.addEventListener("click", function() {
-                const text = "7179797903";
+                const text = "056301001904562";
 
                 if (navigator.clipboard && navigator.clipboard.writeText) {
                     navigator.clipboard.writeText(text)
@@ -507,7 +552,7 @@
         // Rekening Infaq 1
         document.querySelectorAll("[-copy]").forEach(button => {
             button.addEventListener("click", function() {
-                const text = "7179797903";
+                const text = "056301001904562";
 
                 if (navigator.clipboard && navigator.clipboard.writeText) {
                     navigator.clipboard.writeText(text)
