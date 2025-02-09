@@ -9,7 +9,7 @@
     {{-- Map Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
         <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+            style="background-image: url('/img/kutim2.png');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2><strong>LAZ SWARA Kutai Timur </strong>merupakan lembaga amil zakat yang berdiri sejak tahun 2019 dan
@@ -21,7 +21,7 @@
             </h2>
         </div>
         <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+            style="background-image: url('/img/kutim2.png');">
         </div>
     </div>
     {{-- Map Section End --}}
@@ -74,7 +74,7 @@
                 style="background-image: url('/img/struktur1.png');">
             </div>
             <h2><strong>Joni Ariansyah, S.Pt., M.Si.</strong> <br>
-                Direktur
+                Direktur LAZ Swara
             </h2>
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
