@@ -130,7 +130,7 @@
                         </svg>
                         <button email-copy class="copyButton cursor-pointer flex-1 text-gray-700">
                             <p>
-                                sinergimembangunummat@gmail.com
+                                lazswaramandiriummat@gmail.com
                             </p>
                         </button>
                     </a>
@@ -142,8 +142,8 @@
                 <div class="mt-16 border-t border-gray-100 pt-8 items-center ">
                     <ul class="mt-2 flex justify-center gap-6 sm:mt-0">
                         <li class="cursor-pointer">
-                            <a href="#" rel="noreferrer" target="_blank"
-                                class="text-gray-700 transition hover:opacity-75 p-8">
+                            <a href="https://facebook.com/share/196NfRiQTf/?mibextid=wwXIfr" rel="noreferrer"
+                                target="_blank" class="text-gray-700 transition hover:opacity-75 p-8">
                                 <span class="sr-only">Facebook</span>
 
                                 <svg class="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -155,7 +155,8 @@
                         </li>
 
                         <li class="cursor-pointer">
-                            <a href="#" rel="noreferrer" target="_blank"
+                            <a href="http://instagram.com/lazswara?igsh=MWF4MWt2bXNyYTFsZw%3D%3D&utm_source=qr"
+                                rel="noreferrer" target="_blank"
                                 class="text-gray-700 transition hover:opacity-75 p-8">
                                 <span class="sr-only">Instagram</span>
 
@@ -168,7 +169,7 @@
                         </li>
 
                         <li>
-                            <a href="#" rel="noreferrer" target="_blank"
+                            <a href="http://wa.me/6285349688826" rel="noreferrer" target="_blank"
                                 class="text-gray-700 transition hover:opacity-75 p-8">
                                 <span class="sr-only">WhatsApp</span>
                                 <svg class="size-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
@@ -180,13 +181,25 @@
                         </li>
 
                         <li>
-                            <a href="#" rel="noreferrer" target="_blank"
-                                class="text-gray-700 transition hover:opacity-75 p-8">
+                            <a href="https://youtube.com/@lazswara?si=DAT1kyHa4zFb3dJS" rel="noreferrer"
+                                target="_blank" class="text-gray-700 transition hover:opacity-75 p-8">
                                 <span class="sr-only">Youtube</span>
                                 <svg class="size-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
                                     viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                                     <path
                                         d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://tiktok.com/@lazswara?_t=ZS-8ti5W4a4BeB&_r=1" rel="noreferrer"
+                                target="_blank" class="text-gray-700 transition hover:opacity-75 p-8">
+                                <span class="sr-only">Tik Tok</span>
+                                <svg class="size-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path
+                                        d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" />
                                 </svg>
                             </a>
                         </li>
@@ -243,7 +256,7 @@
 
     document.querySelectorAll("[email-copy]").forEach(button => {
         button.addEventListener("click", function() {
-            const text = "sinergimembangunummat@gmail.com";
+            const text = "lazswaramandiriummat@gmail.com";
 
             if (navigator.clipboard && navigator.clipboard.writeText) {
                 navigator.clipboard.writeText(text)
