@@ -4,7 +4,7 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Bersama Mandirikan Ummat']);
+    return view('home', ['title' => 'Wujudkan Kemandirian Ummat']);
 });
 
 Route::get('/about', function () {

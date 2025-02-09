@@ -426,7 +426,7 @@
     <div class="embla overflow-hidden">
         <div class="embla__container flex items-center">
             <div class="embla__slide select-none min-w-full">
-                <div class="relative w-full aspect-[1/1] md:aspect-[16/9] bg-cover bg-center bg-no-repeat"
+                <div class="relative w-full aspect-[1/1] md:aspect-[16/9] bg-cover bg-center bg-no-repeat rounded-md"
                     style="background-image: url('{{ asset('img/herobg.png') }}')">
                     <div class="absolute inset-0 bg-teal-500/50 backdrop-blur-sm flex items-center rounded-md">
                         <div class="grid md:grid-cols-2 w-full max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
@@ -441,7 +441,7 @@
                             <div class="text-center md:text-left flex flex-col justify-center max-w-lg mx-auto">
                                 <h1
                                     class="text-4xl md:text-5xl font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md">
-                                    Bersama Mandirikan Ummat
+                                    Wujudkan Kemandirian Ummat
                                 </h1>
                                 <p class="text-sm md:text-base text-gray-200 drop-shadow-md hover:cursor-default mb-6">
                                     lazswara.org
