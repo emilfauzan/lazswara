@@ -3,8 +3,8 @@
 
     {{-- Firman Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat1.jpeg');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Firman Allah Tentang Zakat</h2>
@@ -20,16 +20,16 @@
                 Penyayang?”<strong> (Q.S At-Taubah: 103-104)</strong>
             </h2>
         </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat1.jpeg');">
         </div>
     </div>
     {{-- Firman Section End --}}
 
     {{-- Pengertian Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat2.jpeg');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Pengertian Zakat</h2>
@@ -42,16 +42,16 @@
                 dampak positif terhadap kesejahteraan masyarakat.
             </h2>
         </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat2.jpeg');">
         </div>
     </div>
     {{-- Pengertian Section End --}}
 
     {{-- Jenis Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat3.jpeg');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Jenis Zakat</h2>
@@ -76,18 +76,18 @@
                 </ol>
             </h2>
         </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat3.jpeg');">
         </div>
     </div>
     {{-- Jenis Section End --}}
 
     {{-- Syarat Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat4.jpeg');">
         </div>
-        <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
+        <div class="content-center justify-self-auto rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Syarat Zakat</h2>
             <h2>Berzakat juga memiliki syarat, diantaranya:</h2>
             <h2>
@@ -120,8 +120,8 @@
                 </ol>
             </h2>
         </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim.png');">
+        <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat4.jpeg');">
         </div>
     </div>
     {{-- Syarat Section End --}}
