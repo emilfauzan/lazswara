@@ -9,7 +9,8 @@
     @vite('resources/js/app.js')
     @vite('public/carousel.js')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <title>Home</title>
+    <link rel="icon" type="image/png" href="{{ asset('logotransparent.png') }}">
+    <title>{{ $titlepage ?? 'LAZ SWARA' }}</title>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/embla-carousel/embla-carousel.umd.js"></script>
     <script src="{{ asset('js/carousel.js') }}" defer></script>

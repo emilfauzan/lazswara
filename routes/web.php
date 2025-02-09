@@ -4,27 +4,27 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Wujudkan Kemandirian Ummat']);
+    return view('home', ['title' => 'Wujudkan Kemandirian Ummat', 'titlepage' => 'Home - LAZ SWARA']);
 });
 
 Route::get('/about', function () {
-    return view('about', ['title' => 'Kenali Tim Swara']);
+    return view('about', ['title' => 'Kenali Tim Swara', 'titlepage' => 'About - LAZ SWARA']);
 });
 
 Route::get('/program', function () {
-    return view('program', ['title' => 'Program Kami']);
+    return view('program', ['title' => 'Program Kami', 'titlepage' => 'Program - LAZ SWARA']);
 });
 
 Route::get('/zakat', function () {
-    return view('zakat', ['title' => 'Makna Berzakat']);
+    return view('zakat', ['title' => 'Makna Berzakat', 'titlepage' => 'Zakat - LAZ SWARA']);
 });
 
 Route::get('/laporan', function () {
-    return view('laporan', ['title' => 'Layanan Zakat']);
+    return view('laporan', ['title' => 'Layanan Zakat', 'titlepage' => 'Laporan - LAZ SWARA']);
 });
 
 Route::get('/rekening', function () {
-    return view('rekening', ['title' => 'Layanan Zakat']);
+    return view('rekening', ['title' => 'Layanan Zakat', 'titlepage' => 'Rekening - LAZ SWARA']);
 });
 
 // Route to generate and download PDF 2020
