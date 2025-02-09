@@ -49,20 +49,46 @@
                 </ul>
             </div>
         </a>
+        {{-- Laporan Akhir Tahun 2022 --}}
+        <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2022.pdf') }}" target="_blank">
+            <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+                <ul>
+                    <li class="text-lg drop-shadow-md">
+                        <strong>
+                            3. Laporan Keuangan 2022 &#11208;
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </a>
+        {{-- Laporan Akhir Tahun 2023 --}}
+        <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2023.pdf') }}" target="_blank">
+            <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
+                <ul>
+                    <li class="text-lg drop-shadow-md">
+                        <strong>
+                            4. Laporan Keuangan 2023 &#11208;
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </a>
     </div>
-    {{-- Laporan Akhir Tahun 2022 --}}
-    <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2022.pdf') }}" target="_blank">
+    {{-- Laporan Akhir Tahun 2024 --}}
+    <a href="{{ url('/files/SMU - Laporan Akhir Tahun 2024.pdf') }}" target="_blank">
         <div class="content-center rounded-lg justify-center items-center border-2 px-8 py-4">
             <ul>
                 <li class="text-lg drop-shadow-md">
                     <strong>
-                        3. Laporan Keuangan 2022 &#11208;
+                        5. Laporan Keuangan 2024 &#11208;
                     </strong>
                 </li>
             </ul>
         </div>
     </a>
     </div>
+
     {{-- Laporan Section End --}}
+    </div>
 
 </x-layout>

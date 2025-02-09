@@ -59,3 +59,25 @@ Route::get('/files/SMU - Laporan Akhir Tahun 2022.pdf', function () {
     $pdf = Pdf::loadView('pdf.laporan', $data);
     return $pdf->download('SMU - Laporan Akhir Tahun 2022.pdf');
 });
+
+// Route to generate and download PDF 2023
+Route::get('/files/SMU - Laporan Akhir Tahun 2023.pdf', function () {
+    $data = [
+        'title' => 'Laporan Kinerja Pengelolaan Zakat Akhir Tahun 2023',
+        'content' => 'Lihat laporan kinerja pengelolaan zakat tahun 2023 dalam format PDF.'
+    ];
+
+    $pdf = Pdf::loadView('pdf.laporan', $data);
+    return $pdf->download('SMU - Laporan Akhir Tahun 2023.pdf');
+});
+
+// Route to generate and download PDF 2024
+Route::get('/files/SMU - Laporan Akhir Tahun 2024.pdf', function () {
+    $data = [
+        'title' => 'Laporan Kinerja Pengelolaan Zakat Akhir Tahun 2024',
+        'content' => 'Lihat laporan kinerja pengelolaan zakat tahun 2024 dalam format PDF.'
+    ];
+
+    $pdf = Pdf::loadView('pdf.laporan', $data);
+    return $pdf->download('SMU - Laporan Akhir Tahun 2024.pdf');
+});
