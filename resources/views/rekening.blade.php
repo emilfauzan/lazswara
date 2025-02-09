@@ -24,7 +24,7 @@
 
     {{-- Rekening Mobile Section Start --}}
     {{-- Rekening Zakat --}}
-    <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 md:hidden">
+    <div class="grid lg:grid-cols-1 my-4 break-words lg:break-normal items-stretch gap-4 lg:hidden">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
             <ul>
                 <li>
@@ -39,7 +39,7 @@
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center"
                     style="background-image: url('/img/rekening.png');">
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="mx-2 py-2 content-center text-center rounded-lg border-2">
                     <p>a/n Y Swara MU Zakat</p>
                 </div>
             </div>
@@ -49,15 +49,21 @@
                     <p>72 9593 1463</p>
                 </div>
                 <button rz1-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
+                    class="copyButton px-4 py-2 justify-center text-center rounded-lg border-2 border-teal-700/50 cursor-pointer bg-gray-200 hover:bg-gray-300 flex gap-1">
+                    <svg class="size-5 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l140.1 0L400 115.9 400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-32-48 0 0 32c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0 0-48-32 0z"/></svg>
+                    <p class="self-center">
                         Copy
                     </p>
                 </button>
                 <!-- QRIS Button Start -->
-                <div x-data="{ z2: false }" @keydown.escape.window="z2 = false" class="justify-self-center">
+                <div x-data="{ z2: false }" @keydown.escape.window="z2 = false" class="justify-self-center border-2 border-teal-700/50 rounded-lg items-stretch">
                     <button @click="z2 = true"
-                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        class="block items-stretch text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer gap-1 place-items-center md:flex">
+                        <svg class="size-5 self-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48L0 80zM64 96l0 64 64 0 0-64L64 96zM0 336c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm64 16l0 64 64 0 0-64-64 0zM304 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zm80 64l-64 0 0 64 64 0 0-64zM256 304c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s7.2-16 16-16s16 7.2 16 16l0 96c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-160zM368 480a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm64 0a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
+                        </svg>
                         <strong>QRIS</strong>
                     </button>
                     <!-- Modal -->
@@ -101,7 +107,7 @@
         </div>
     </div>
     {{-- Rekening Infaq --}}
-    <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 md:hidden">
+    <div class="grid lg:grid-cols-1 my-4 break-words lg:break-normal items-stretch gap-4 lg:hidden">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
             <ul>
                 <li>
@@ -116,8 +122,8 @@
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center"
                     style="background-image: url('/img/rekening.png');">
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
-                    <p>a/n Swara MU Infaq</p>
+                <div class="mx-2 py-2 content-center text-center rounded-lg border-2">
+                    <p>a/n Y Swara MU Infaq</p>
                 </div>
             </div>
             <div class="grid grid-cols-3 gap-2 mx-2 my-2 mb-8">
@@ -126,15 +132,21 @@
                     <p>72 9593 1412</p>
                 </div>
                 <button ri2-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
+                    class="copyButton px-4 py-2 justify-center text-center rounded-lg border-2 border-teal-700/50 cursor-pointer bg-gray-200 hover:bg-gray-300 flex gap-1">
+                    <svg class="size-5 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l140.1 0L400 115.9 400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-32-48 0 0 32c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0 0-48-32 0z"/></svg>
+                    <p class="self-center">
                         Copy
                     </p>
                 </button>
                 <!-- QRIS Button Start -->
-                <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
+                <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center border-2 border-teal-700/50 rounded-lg items-stretch">
                     <button @click="i2 = true"
-                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        class="block items-stretch text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer gap-1 place-items-center md:flex">
+                        <svg class="size-5 self-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                            <path
+                                d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48L0 80zM64 96l0 64 64 0 0-64L64 96zM0 336c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm64 16l0 64 64 0 0-64-64 0zM304 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zm80 64l-64 0 0 64 64 0 0-64zM256 304c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s7.2-16 16-16s16 7.2 16 16l0 96c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-160zM368 480a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm64 0a16 16 0 1 1 0-32 16 16 0 1 1 0 32z" />
+                        </svg>
                         <strong>QRIS</strong>
                     </button>
                     <!-- Modal -->
@@ -181,18 +193,19 @@
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center"
                     style="background-image: url('/img/rekening3.png');">
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2">
+                <div class="mx-2 py-2 content-center text-center rounded-lg border-2">
                     <p>a/n Yayasan Swara Mandiri Ummat</p>
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-2 mx-2 my-2 mb-6">
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums italic font-semibold">
-                    <p>056301001904562</p>
+                    <p>0563010 0190 4562</p>
                 </div>
                 <button ri1-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300">
-                    <p>
+                    class="copyButton px-4 py-2 justify-center text-center rounded-lg border-2 border-teal-700/50 cursor-pointer bg-gray-200 hover:bg-gray-300 flex gap-1">
+                    <svg class="size-5 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l140.1 0L400 115.9 400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-32-48 0 0 32c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0 0-48-32 0z"/></svg>
+                    <p class="self-center">
                         Copy
                     </p>
                 </button>
@@ -204,7 +217,7 @@
     {{--  --}}
 
     {{-- Rekening Zakat Section Start --}}
-    <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:block">
+    <div class="lg:grid-cols-1 my-4 break-words lg:break-normal items-stretch gap-4 hidden lg:block">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
             <ul>
                 <li>
@@ -219,25 +232,25 @@
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
                     style="background-image: url('/img/rekening.png');">
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
+                <div class="mx-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
                     <p>a/n Y Swara MU Zakat</p>
                 </div>
                 <div
-                    class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
+                    class="mx-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>72 9593 1463</p>
                 </div>
-                <div class="justify-self-center">
+                <div class="justify-items-center self-center">
                     <button rz1-copy
-                        class="copyButton content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-3 py-3 cursor-pointer">
-                        <p>
-                            Copy
-                        </p>
-                    </button>
+                        class="copyButton px-4 py-2 text-center rounded-lg border-2 border-teal-700/50 cursor-pointer col-span-2 bg-gray-200 hover:bg-gray-300 flex gap-1">
+                    <svg class="size-5 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l140.1 0L400 115.9 400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-32-48 0 0 32c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0 0-48-32 0z"/></svg>
+                    <p class="self-center">
+                        Copy
+                    </p>
                 </div>
                 <!-- QRIS Button Start -->
                 <div x-data="{ z2: false }" @keydown.escape.window="z2 = false" class="justify-self-center">
                     <button @click="z2 = true"
-                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer border-2 border-teal-700/50">
                         <strong>QRIS</strong>
                     </button>
                     <!-- Modal -->
@@ -283,7 +296,7 @@
     {{-- Rekening Zakat Section End --}}
 
     {{-- Rekening Infaq Section Start --}}
-    <div class="md:grid-cols-1 my-4 break-words md:break-normal items-stretch gap-4 hidden md:block">
+    <div class="lg:grid-cols-1 my-4 break-words lg:break-normal items-stretch gap-4 hidden lg:block">
         <div class="content-center rounded-lg justify-center items-center bg-teal-600/60 px-8 py-4">
             <ul>
                 <li>
@@ -294,29 +307,29 @@
             </ul>
         </div>
         <div class="content-center rounded-lg justify-center items-center px-2 py-4">
-            <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
+            <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-3">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
                     style="background-image: url('/img/rekening.png');">
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
-                    <p>a/n Swara MU Infaq</p>
+                <div class="mx-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
+                    <p>a/n Y Swara MU Infaq</p>
                 </div>
                 <div
-                    class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
+                    class="mx-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
                     <p>72 9593 1412</p>
                 </div>
-                <div class="justify-self-center">
+                <div class="justify-items-center self-center">
                     <button ri2-copy
-                        class="copyButton content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-3 py-3 cursor-pointer">
-                        <p>
-                            Copy
-                        </p>
-                    </button>
+                        class="copyButton px-4 py-2 text-center rounded-lg border-2 border-teal-700/50 cursor-pointer col-span-2 bg-gray-200 hover:bg-gray-300 flex gap-1">
+                    <svg class="size-5 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l140.1 0L400 115.9 400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-32-48 0 0 32c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0 0-48-32 0z"/></svg>
+                    <p class="self-center">
+                        Copy
+                    </p>
                 </div>
                 <!-- QRIS Button Start -->
                 <div x-data="{ i2: false }" @keydown.escape.window="i2 = false" class="justify-self-center">
                     <button @click="i2 = true"
-                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer">
+                        class="content-center text-center rounded-lg  bg-gray-200 hover:bg-gray-300 px-4 py-3 cursor-pointer border-2 border-teal-700/50 ">
                         <strong>QRIS</strong>
                     </button>
                     <!-- Modal -->
@@ -357,20 +370,25 @@
                 </div>
                 <!-- QRIS Button End -->
             </div>
-            <div class="grid grid-cols-10 gap-2 mx-2 my-2 mb-6">
+
+            <div class="border-b-2 pt-2">
+            </div>
+            
+            <div class="grid grid-cols-10 gap-2 mx-2 my-5 mb-3">
                 <div class="bg-contain bg-no-repeat bg-center w-full items-center col-span-2"
                     style="background-image: url('/img/rekening3.png');">
                 </div>
-                <div class="px-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
+                <div class="mx-2 py-2 content-center text-center rounded-lg border-2 col-span-3">
                     <p>a/n Yayasan Swara Mandiri Ummat</p>
                 </div>
                 <div
                     class="px-2 py-2 content-center text-center rounded-lg border-2 proportional-nums col-span-3 italic font-semibold">
-                    <p>056301001904562</p>
+                    <p>0563010 0190 4562</p>
                 </div>
                 <button ri1-copy
-                    class="copyButton px-4 py-2 text-center rounded-lg border-2 cursor-pointer bg-gray-200 hover:bg-gray-300 col-span-2">
-                    <p>
+                    class="copyButton px-4 py-2 justify-center text-center rounded-lg border-2 border-teal-700/50 cursor-pointer col-span-2 bg-gray-200 hover:bg-gray-300 flex gap-1">
+                    <svg class="size-5 self-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l140.1 0L400 115.9 400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-204.1c0-12.7-5.1-24.9-14.1-33.9L366.1 14.1c-9-9-21.2-14.1-33.9-14.1L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-32-48 0 0 32c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l32 0 0-48-32 0z"/></svg>
+                    <p class="self-center">
                         Copy
                     </p>
                 </button>
