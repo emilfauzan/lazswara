@@ -1,6 +1,6 @@
 <header >
     {{-- Embla Hero Carousel Section Start --}}
-    <div class="relative mt-8">
+    <div class="relative mb-8">
         <div class="embla embla-1 overflow-hidden">
             <div class="embla__viewport">
                 <div class="embla__container flex items-center">
@@ -8,7 +8,7 @@
                         <div class="relative w-full aspect-[1/1] md:aspect-[16/9] bg-cover bg-center bg-no-repeat rounded-md"
                             style="background-image: url('{{ asset('img/herobg.png') }}')">
                             <div class="absolute inset-0 bg-teal-500/50 backdrop-blur-sm flex items-center rounded-md">
-                                <div class="grid md:grid-cols-2 w-full max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+                                <div class="grid md:grid-cols-2 w-full max-w-7xl mx-auto px-10 py-6 sm:px-8 lg:px-12">
 
                                     <!-- Mobile Logo (Visible on Small Screens) -->
                                     <div class="md:hidden place-self-center">
@@ -20,7 +20,7 @@
                                     <div
                                         class="text-center md:text-left flex flex-col justify-center max-w-lg mx-auto">
                                         <h1
-                                            class="text-4xl md:text-5xl font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md">
+                                            class="text-4xl md:text-5xl font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md px-2">
                                             Wujudkan Kemandirian Ummat
                                         </h1>
                                         <p
@@ -58,9 +58,9 @@
             </div>
         </div>
         <button
-            class="prev-btn-1 absolute left-0 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-2 rounded-full">&#11164;</button>
+            class="prev-btn-1 absolute left-2 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-2 rounded-full">&#11164;</button>
         <button
-            class="next-btn-1 absolute right-0 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-2 rounded-full">&#11166;</button>
+            class="next-btn-1 absolute right-2 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-2 rounded-full">&#11166;</button>
         <div class="dots-container-1 flex justify-center mt-4 space-x-2"></div>
     </div>
     {{-- Embla Hero Carousel Section End --}}

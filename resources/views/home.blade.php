@@ -3,7 +3,6 @@
     <x-slot:title>{{ $title }}</x-slot:title>
 
     {{-- Tabel Section Start --}}
-    <div class="border-t-2 mt-8">
     <div>
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mt-4 mb-6 drop-shadow-md">Tabel Zakat</h2>
     </div>

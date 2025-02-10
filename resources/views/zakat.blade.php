@@ -5,7 +5,7 @@
     {{-- Firman Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
         <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat1.jpeg');">
+            style="background-image: url('/img/zakat6.jpeg');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Firman Allah Tentang Zakat</h2>
@@ -22,7 +22,7 @@
             </h2>
         </div>
         <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat1.jpeg');">
+            style="background-image: url('/img/zakat6.jpeg');">
         </div>
     </div>
     {{-- Firman Section End --}}
@@ -30,7 +30,7 @@
     {{-- Pengertian Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
         <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat2.jpeg');">
+            style="background-image: url('/img/zakat7.png');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Pengertian Zakat</h2>
@@ -43,8 +43,8 @@
                 dampak positif terhadap kesejahteraan masyarakat.
             </h2>
         </div>
-        <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat2.jpeg');">
+        <div class="bg-cover bg-no-repeat bg-top rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/zakat7.png');">
         </div>
     </div>
     {{-- Pengertian Section End --}}
@@ -52,7 +52,7 @@
     {{-- Jenis Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
         <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat3.jpeg');">
+            style="background-image: url('/img/zakat8.png');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Jenis Zakat</h2>
@@ -78,7 +78,7 @@
             </h2>
         </div>
         <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat3.jpeg');">
+            style="background-image: url('/img/zakat8.png');">
         </div>
     </div>
     {{-- Jenis Section End --}}
@@ -86,7 +86,7 @@
     {{-- Syarat Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
         <div class="md:hidden h-80 bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat4.jpeg');">
+            style="background-image: url('/img/zakat9.png');">
         </div>
         <div class="content-center justify-self-auto rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Syarat Zakat</h2>
@@ -122,7 +122,7 @@
             </h2>
         </div>
         <div class="bg-cover bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/zakat4.jpeg');">
+            style="background-image: url('/img/zakat9.png');">
         </div>
     </div>
     {{-- Syarat Section End --}}

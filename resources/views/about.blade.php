@@ -68,18 +68,19 @@
     </div>
 
     {{-- Struktur Section Start --}}
-    <div class="grid md:grid-cols-3 my-4 break-words md:break-normal gap-4 items-stretch justify-stretch text-center">
+    <div
+        class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-4 break-words md:break-normal gap-4 items-stretch text-center">
         <div class="content-start rounded-lg px-6 py-8 bg-white">
-            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/struktur1.png');">
+            <div class="mb-2 h-64 w-full flex items-end justify-center">
+                <img src="/img/struktur1.png" alt="Joni Ariansyah" class="max-h-full object-contain">
             </div>
             <h2><strong>Joni Ariansyah, S.Pt., M.Si.</strong> <br>
                 Direktur LAZ Swara
             </h2>
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
-            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/struktur2.png');">
+            <div class="mb-2 h-64 w-full flex items-end justify-center">
+                <img src="/img/struktur2.png" alt="M. Fikri Gozali" class="max-h-full object-contain">
             </div>
             <h2><strong>M. Fikri Gozali, S.IP.</strong> <br>
                 Manager Operasional & <br>
@@ -87,34 +88,33 @@
             </h2>
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
-            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/struktur3.png');">
+            <div class="mb-2 h-64 w-full flex items-end justify-center">
+                <img src="/img/struktur3.png" alt="Yulistri Reka Maulaa" class="max-h-full object-contain">
             </div>
             <h2><strong>Yulistri Reka Maulaa, SE.</strong> <br>
                 Bidang Administrasi dan Keuangan
             </h2>
         </div>
-    </div>
-    <div class="grid md:grid-cols-3 my-4 break-words md:break-normal gap-4 items-stretch text-center">
+
         <div class="content-start rounded-lg px-6 py-8 bg-white">
-            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/struktur4.png');">
+            <div class="mb-2 h-64 w-full flex items-end justify-center">
+                <img src="/img/struktur4.png" alt="Aulia Anggraini S." class="max-h-full object-contain">
             </div>
             <h2><strong>Aulia Anggraini S., S.Pd.</strong> <br>
                 Bidang Penghimpunan
             </h2>
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
-            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/struktur5.png');">
+            <div class="mb-2 h-64 w-full flex items-end justify-center">
+                <img src="/img/struktur5.png" alt="Amanda Stevany Nurvita" class="max-h-full object-contain">
             </div>
             <h2><strong>Amanda Stevany Nurvita</strong> <br>
                 Staff Bidang Media dan Informasi
             </h2>
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
-            <div class="mb-2 bg-contain bg-no-repeat bg-bottom rounded-lg shadow h-64 w-full items-center"
-                style="background-image: url('/img/struktur6.png');">
+            <div class="mb-2 h-64 w-full flex items-end justify-center">
+                <img src="/img/struktur6.png" alt="Tegas Ahmad Ismunandar" class="max-h-full object-contain">
             </div>
             <h2><strong>Tegas Ahmad Ismunandar</strong> <br>
                 Staff Bidang Pendistribusian
@@ -122,6 +122,7 @@
         </div>
     </div>
     {{-- Struktur Section End --}}
+
 
     <div>
         <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 my-8 drop-shadow-md">Legalitas</h2>

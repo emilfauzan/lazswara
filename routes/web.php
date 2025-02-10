@@ -4,11 +4,11 @@ use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Wujudkan Kemandirian Ummat', 'titlepage' => 'Home - LAZ SWARA']);
+    return view('home', ['title' => 'Wujudkan Kemandirian Ummat', 'titlepage' => 'Beranda - LAZ SWARA']);
 });
 
 Route::get('/about', function () {
-    return view('about', ['title' => 'Kenali Tim Swara', 'titlepage' => 'About - LAZ SWARA']);
+    return view('about', ['title' => 'Kenali Tim Swara', 'titlepage' => 'Tentang Kami - LAZ SWARA']);
 });
 
 Route::get('/program', function () {
@@ -20,7 +20,7 @@ Route::get('/zakat', function () {
 });
 
 Route::get('/laporan', function () {
-    return view('laporan', ['title' => 'Layanan Zakat', 'titlepage' => 'Laporan - LAZ SWARA']);
+    return view('laporan', ['title' => 'Layanan Zakat', 'titlepage' => 'Laporan Keuangan - LAZ SWARA']);
 });
 
 Route::get('/rekening', function () {

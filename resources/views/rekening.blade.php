@@ -16,8 +16,7 @@
 
             <div
                 class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64 px-8">
-                <h2 class="text-xl drop-shadow-md"><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Quibusdam magnam omnis delectus.</strong></h2>
+                <h2 class="text-xl drop-shadow-md">Mari bersama<strong> WUJUDKAN KEMANDIRIAN UMMAT</strong> di Kabupaten Kutai Timur.</h2>
             </div>
         </div>
     </div>
