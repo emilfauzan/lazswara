@@ -8,8 +8,8 @@
 
     {{-- Map Section Start --}}
     <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
-        <div class="md:hidden h-80 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim2.png');">
+        <div class="md:hidden min-h-96 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
+            style="background-image: url('/img/kutim3.png');">
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2><strong>LAZ SWARA Kutai Timur </strong>merupakan lembaga amil zakat yang berdiri sejak tahun 2019 dan
@@ -20,18 +20,16 @@
                 seperti CSR.
             </h2>
         </div>
-        <div class="bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/kutim2.png');">
+        <div class="hidden md:block relative w-full aspect-square bg-contain bg-no-repeat bg-center rounded-lg shadow"
+            style="background-image: url('/img/kutim3.png');">
         </div>
     </div>
     {{-- Map Section End --}}
 
     {{-- Visi Misi Section Start --}}
-    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 ">
-        <div class="md:hidden h-80 bg-cover bg-no-repeat bg-top rounded-lg shadow w-full items-center"
+    <div class="grid md:grid-cols-2 my-4 break-words md:break-normal gap-4 items-stretch">
+        <div class="md:hidden min-h-96 bg-contain bg-no-repeat bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/visimisi.jpeg');">
-            <div class="items-center justify-center bg-teal-500/10 h-full w-full rounded-lg">
-            </div>
         </div>
         <div class="content-center rounded-lg px-6 py-8 place-self-center bg-gray-300/20 shadow">
             <h2><strong>Visi: </strong> <br>
@@ -39,25 +37,15 @@
                 Timur. <br> <br>
                 <strong>Misi: </strong> <br>
                 <ol class="list-decimal ml-5">
-                    <li>
-                        Meningkatkan kompetensi SDM yang amanah.
-                    </li>
-                    <li>
-                        Meningkatkan tata kelola zakat, infaq, dan sedekah yang
-                        profesional.
-                    </li>
-                    <li>
-                        Membangun jejaring dengan berbagai pihak untuk sinergitas pengelolaan zakat, infaq, dan
-                        sedekah.
+                    <li>Meningkatkan kompetensi SDM yang amanah.</li>
+                    <li>Meningkatkan tata kelola zakat, infaq, dan sedekah yang profesional.</li>
+                    <li>Membangun jejaring dengan berbagai pihak untuk sinergitas pengelolaan zakat, infaq, dan sedekah.
                     </li>
                 </ol>
             </h2>
         </div>
-
-        <div class="bg-cover bg-no-repeat bg-top rounded-lg shadow w-full items-center"
+        <div class="hidden md:block relative w-full h-96 aspect-square bg-cover bg-no-repeat bg-center rounded-lg shadow"
             style="background-image: url('/img/visimisi.jpeg');">
-            <div class="items-center justify-center bg-teal-500/20 h-full w-full rounded-lg">
-            </div>
         </div>
     </div>
     {{-- Visi Misi Section End --}}
@@ -72,7 +60,7 @@
         class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-4 break-words md:break-normal gap-4 items-stretch text-center">
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 h-64 w-full flex items-end justify-center">
-                <img src="/img/struktur1.png" alt="Joni Ariansyah" class="max-h-full object-contain">
+                <img src="/img/ab1.png" alt="Joni Ariansyah" class="max-h-full object-contain">
             </div>
             <h2><strong>Joni Ariansyah, S.Pt., M.Si.</strong> <br>
                 Direktur LAZ Swara
@@ -80,7 +68,7 @@
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 h-64 w-full flex items-end justify-center">
-                <img src="/img/struktur2.png" alt="M. Fikri Gozali" class="max-h-full object-contain">
+                <img src="/img/ab2.png" alt="M. Fikri Gozali" class="max-h-full object-contain">
             </div>
             <h2><strong>M. Fikri Gozali, S.IP.</strong> <br>
                 Manager Operasional & <br>
@@ -89,7 +77,7 @@
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 h-64 w-full flex items-end justify-center">
-                <img src="/img/struktur3.png" alt="Yulistri Reka Maulaa" class="max-h-full object-contain">
+                <img src="/img/ab3.png" alt="Yulistri Reka Maulaa" class="max-h-full object-contain">
             </div>
             <h2><strong>Yulistri Reka Maulaa, SE.</strong> <br>
                 Bidang Administrasi dan Keuangan
@@ -98,7 +86,7 @@
 
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 h-64 w-full flex items-end justify-center">
-                <img src="/img/struktur4.png" alt="Aulia Anggraini S." class="max-h-full object-contain">
+                <img src="/img/ab4.png" alt="Aulia Anggraini S." class="max-h-full object-contain">
             </div>
             <h2><strong>Aulia Anggraini S., S.Pd.</strong> <br>
                 Bidang Penghimpunan
@@ -106,7 +94,7 @@
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 h-64 w-full flex items-end justify-center">
-                <img src="/img/struktur5.png" alt="Amanda Stevany Nurvita" class="max-h-full object-contain">
+                <img src="/img/ab5.png" alt="Amanda Stevany Nurvita" class="max-h-full object-contain">
             </div>
             <h2><strong>Amanda Stevany Nurvita</strong> <br>
                 Staff Bidang Media dan Informasi
@@ -114,7 +102,7 @@
         </div>
         <div class="content-start rounded-lg px-6 py-8 bg-white">
             <div class="mb-2 h-64 w-full flex items-end justify-center">
-                <img src="/img/struktur6.png" alt="Tegas Ahmad Ismunandar" class="max-h-full object-contain">
+                <img src="/img/ab6.png" alt="Tegas Ahmad Ismunandar" class="max-h-full object-contain">
             </div>
             <h2><strong>Tegas Ahmad Ismunandar</strong> <br>
                 Staff Bidang Pendistribusian

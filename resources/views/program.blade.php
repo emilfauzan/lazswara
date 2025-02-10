@@ -67,7 +67,7 @@
     <div x-data="{ activePage: null }">
         <!-- Buttons -->
         <div x-show="activePage === null"
-            class="grid md:grid-cols-2 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
+            class="grid lg:grid-cols-2 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
             <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
                 style="background-image: url('/img/program1.png');">
                 <div
@@ -102,7 +102,7 @@
                 </div>
             </div>
             <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
-                style="background-image: url('/img/home2.png');">
+                style="background-image: url('/img/program4.jpeg');">
                 <div
                     class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64">
                     <h2 class="text-2xl md:text-xl drop-shadow-md mb-2"><strong>EKONOMI</strong></h2>

@@ -18,9 +18,9 @@
 
                                     <!-- Content -->
                                     <div
-                                        class="text-center md:text-left flex flex-col justify-center max-w-lg mx-auto">
+                                        class="text-center md:text-left flex flex-col justify-center max-w-lg mx-auto px-6">
                                         <h1
-                                            class="text-4xl md:text-5xl font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md px-2">
+                                            class="text-4xl md:text-5xl font-bold tracking-wider text-gray-200 mb-6 drop-shadow-md">
                                             Wujudkan Kemandirian Ummat
                                         </h1>
                                         <p

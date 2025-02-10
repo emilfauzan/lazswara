@@ -4,7 +4,8 @@
 
     {{-- Tabel Section Start --}}
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mt-4 mb-6 drop-shadow-md">Tabel Zakat</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mt-4 mb-6 drop-shadow-md">Tabel Zakat
+        </h2>
     </div>
     <div class="grid grid-cols-5 my-4 break-words md:break-normal items-stretch min-h-[150px]">
 
@@ -219,21 +220,21 @@
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home1.png');">
             <div class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
-                <h2 class="text-3xl drop-shadow-md"><strong>Sebanyak 11.751 Orang</strong></h2>
+                <h2 class="text-3xl drop-shadow-md"><strong>Sebanyak 1.700 Orang</strong></h2>
                 <p class="text-xl drop-shadow-md"><strong>Jumlah Muzzaki & Munfiq</strong></p>
             </div>
         </div>
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
             style="background-image: url('/img/home2.png');">
             <div class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
-                <h2 class="text-2xl md:text-3xl drop-shadow-md"><strong>Sebanyak 24.125 Orang</strong></h2>
+                <h2 class="text-2xl md:text-3xl drop-shadow-md"><strong>Sebanyak 27.323 Orang</strong></h2>
                 <p class="text-xl drop-shadow-md"><strong>Jumlah Mustahik</strong></p>
             </div>
         </div>
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/home3.png');">
+            style="background-image: url('/img/mitra.png');">
             <div class="content-center rounded-lg text-center justify-center items-center bg-teal-300/80 h-80 md:h-64">
-                <h2 class="text-3xl drop-shadow-md"><strong>Lebih dari 15</strong></h2>
+                <h2 class="text-3xl drop-shadow-md"><strong>Lebih dari 20</strong></h2>
                 <p class="text-xl drop-shadow-md"><strong>Jumlah Mitra</strong></p>
             </div>
         </div>
@@ -247,10 +248,12 @@
         </h2>
     </div>
     <div class="grid md:grid-cols-2 my-4 gap-4 items-stretch py-4">
-        <div class="bg-cover bg-top rounded-lg shadow w-full min-h-[200px] md:h-80 flex items-center"
-            style="background-image: url('/img/20.png');">
-            <div class="bg-teal-500/20 h-full w-full rounded-lg"></div>
+        <div
+            class="relative w-full min-h-[200px] md:h-80 flex items-center justify-center overflow-hidden rounded-lg shadow bg-gray-100">
+            <img src="/img/contact.png" alt="Contact" class="w-full h-full object-cover md:object-contain">
+            <div class="absolute inset-0 bg-teal-500/20 rounded-lg"></div>
         </div>
+
         <div class="rounded-lg px-4 flex flex-col justify-center min-h-[150px] md:h-80 py-6">
             <h2 class="text-lg font-bold my-2">Silahkan hubungi kami untuk informasi lebih lanjut.</h2>
             <a href="http://wa.me/6285349688826" target="_blank"
@@ -289,26 +292,24 @@
                     <div class="embla__container flex">
                         <div class="embla__slide min-w-full flex items-center justify-center">
                             <div class="grid grid-cols-4 gap-6">
-                                <img src="img/mp/mp1.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/mp/mp6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 1">
-                                <img src="img/mp/mp2.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/mp/mp7.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 2">
-                                <img src="img/mp/mp3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/mp/mp8.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 3">
                                 <img src="img/mp/mp4.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 4">
                             </div>
                         </div>
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-4 gap-6">
-                                <img src="img/mp/mp5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                            <div class="grid grid-cols-3 gap-6">
+                                <img src="img/mp/mp2.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 5">
-                                <img src="img/mp/mp6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
-                                    alt="Company 6">
-                                <img src="img/mp/mp7.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/mp/mp5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 7">
-                                <img src="img/mp/mp8.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
-                                    alt="Company 8">
+                                <img src="img/mp/mp3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 6">
                             </div>
                         </div>
                     </div>
@@ -347,28 +348,48 @@
                     <div class="embla__container flex">
                         <div class="embla__slide min-w-full flex items-center justify-center">
                             <div class="grid grid-cols-4 gap-6">
-                                <img src="img/my/my1.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/my/my12.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 1">
-                                <img src="img/my/my2.jpg" class="h-24 md:h-32 w-auto object-contain mx-auto"
-                                    alt="Foundation 2">
-                                <img src="img/my/my3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    <img src="img/my/my8.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 3">
-                                <img src="img/my/my4.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
-                                    alt="Foundation 4">
+                                    <img src="img/my/my16.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                        alt="Foundation 4">
+                                <img src="img/my/my1.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 5">
                             </div>
                         </div>
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-5 gap-6">
-                                <img src="img/my/my5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                            <div class="grid grid-cols-4 gap-6">
+                                <img src="img/my/my9.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 2">
+                                <img src="img/my/my4.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 8">
+                                <img src="img/my/my3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 7">
+                                <img src="img/my/my2.jpg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 6">
+                            </div>
+                        </div>
+                        <div class="embla__slide min-w-full flex items-center justify-center">
+                            <div class="grid grid-cols-4 gap-6">
+                                <img src="img/my/my15.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 5">
                                 <img src="img/my/my6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 6">
-                                <img src="img/my/my7.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/my/my5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 7">
-                                <img src="img/my/my8.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/my/my7.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 8">
-                                <img src="img/my/my9.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
-                                    alt="Foundation 9">
+                            </div>
+                        </div>
+                        <div class="embla__slide min-w-full flex items-center justify-center">
+                            <div class="grid grid-cols-3 gap-6">
+                                <img src="img/my/my11.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 5">
+                                <img src="img/my/my17.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 6">
+                                <img src="img/my/my14.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 8">
                             </div>
                         </div>
                     </div>
