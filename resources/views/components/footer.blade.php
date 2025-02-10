@@ -4,8 +4,7 @@
     {{-- Alert Section Start --}}
     <div class="bg-orange-400 rounded-t-lg px-4 py-8 flex">
         <div class="mx-8 content-center">
-            <svg class="size-12" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 512 512">
+            <svg class="size-12" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path
                     d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480L40 480c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24l0 112c0 13.3 10.7 24 24 24s24-10.7 24-24l0-112c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z" />
             </svg>
@@ -223,8 +222,7 @@
     <div class="bg-teal-700/30 px-6 py-4 rounded-md shadow-md text-center w-auto sm:w-full sm:rounded-none">
         <p
             class="text-white font-semibold flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-white"
-                viewBox="0 0 384 512">
+            <svg xmlns="http://www.w3.org/2000/svg" class="size-5 text-white" viewBox="0 0 384 512">
                 <path fill="#ffffff"
                     d="M192 0c-41.8 0-77.4 26.7-90.5 64L64 64C28.7 64 0 92.7 0 128L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-37.5 0C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
             </svg>
@@ -270,4 +268,103 @@
             }
         });
     });
+
+    // Carousel Start
+    document.addEventListener("DOMContentLoaded", () => {
+        function setupCarousel(emblaSelector, prevSelector, nextSelector, dotsContainerSelector) {
+            const emblaNode = document.querySelector(emblaSelector);
+            const prevButton = document.querySelector(prevSelector);
+            const nextButton = document.querySelector(nextSelector);
+            const dotsContainer = document.querySelector(dotsContainerSelector);
+
+            if (emblaNode && prevButton && nextButton && dotsContainer) {
+                const viewport = emblaNode.querySelector(".embla__viewport");
+                const embla = EmblaCarousel(viewport, {
+                    loop: true
+                });
+
+                // Membuat pagination dots
+                const slideCount = embla.slideNodes().length;
+                dotsContainer.innerHTML = ""; // Reset dots jika sudah ada
+                const dots = [];
+
+                for (let i = 0; i < slideCount; i++) {
+                    const dot = document.createElement("button");
+                    dot.classList.add("embla-dot");
+                    dot.addEventListener("click", () => {
+                        embla.scrollTo(i);
+                        restartAutoScroll();
+                    });
+                    dotsContainer.appendChild(dot);
+                    dots.push(dot);
+                }
+
+                function updateActiveDot() {
+                    const selectedIndex = embla.selectedScrollSnap();
+                    dots.forEach((dot, index) => {
+                        dot.classList.toggle("active", index === selectedIndex);
+                    });
+                }
+
+                embla.on("select", updateActiveDot);
+                updateActiveDot(); // Set dot pertama aktif
+
+                // Event untuk tombol navigasi
+                prevButton.addEventListener("click", () => {
+                    embla.scrollPrev();
+                    restartAutoScroll();
+                });
+
+                nextButton.addEventListener("click", () => {
+                    embla.scrollNext();
+                    restartAutoScroll();
+                });
+
+                // Auto-slide tiap 3 detik
+                let autoScroll = setInterval(() => embla.scrollNext(), 5000);
+
+                function restartAutoScroll() {
+                    clearInterval(autoScroll);
+                    autoScroll = setInterval(() => embla.scrollNext(), 5000);
+                }
+
+                // Pause auto-slide saat user swipe
+                embla.on("pointerDown", () => {
+                    clearInterval(autoScroll);
+                    setTimeout(restartAutoScroll, 5000);
+                });
+
+                console.log(`Embla initialized for ${emblaSelector}`);
+            }
+        }
+
+        // Inisialisasi semua carousel
+        document.querySelectorAll(".embla").forEach((emblaNode, index) => {
+            const carouselNumber = index + 1;
+            setupCarousel(
+                `.embla-${carouselNumber}`,
+                `.prev-btn-${carouselNumber}`,
+                `.next-btn-${carouselNumber}`,
+                `.dots-container-${carouselNumber}`
+            );
+        });
+    });
+    // Carousel End
 </script>
+
+<style>
+    .embla-dot {
+        width: 12px;
+        height: 12px;
+        background-color: #d1d5db;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .embla-dot.active {
+        background-color: #0d9488;
+        /* Warna teal untuk dot aktif */
+    }
+</style>

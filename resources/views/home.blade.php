@@ -3,8 +3,9 @@
     <x-slot:title>{{ $title }}</x-slot:title>
 
     {{-- Tabel Section Start --}}
+    <div class="border-t-2 mt-8">
     <div>
-        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mb-6 drop-shadow-md">Tabel Zakat</h2>
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 pt-4 mt-4 mb-6 drop-shadow-md">Tabel Zakat</h2>
     </div>
     <div class="grid grid-cols-5 my-4 break-words md:break-normal items-stretch min-h-[150px]">
 
@@ -251,7 +252,7 @@
             style="background-image: url('/img/20.png');">
             <div class="bg-teal-500/20 h-full w-full rounded-lg"></div>
         </div>
-        <div class="rounded-lg px-4 bg-teal-500/20 flex flex-col justify-center min-h-[150px] md:h-80 py-6">
+        <div class="rounded-lg px-4 flex flex-col justify-center min-h-[150px] md:h-80 py-6">
             <h2 class="text-lg font-bold my-2">Silahkan hubungi kami untuk informasi lebih lanjut.</h2>
             <a href="http://wa.me/6285349688826" target="_blank"
                 class="flex bg-teal-800 p-4 px-6 rounded-xl font-bold text-gray-200 hover:bg-teal-600 ease-in-out duration-200 active:bg-teal-900 drop-shadow-lg">
@@ -269,28 +270,122 @@
     </div>
     {{-- Hubungi Section End --}}
 
+    <!-- Mitra Perusahaan Section Start -->
+    <div class="relative my-8 bg-white rounded-lg py-6 px-2 shadow-lg">
+        <!-- Title -->
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 drop-shadow-md">
+            Mitra Perusahaan
+        </h2>
 
-    {{-- Scroll to Top Button Start --}}
-    <div x-data="{ isVisible: false }" x-init="window.addEventListener('scroll', () => { isVisible = window.scrollY > 100; })" x-show="isVisible"
-        x-transition:enter="transition ease-out duration-300"
-        x-transition:enter-start="opacity-0 transform translate-y-2"
-        x-transition:enter-end="opacity-100 transform translate-y-0"
-        x-transition:leave="transition ease-in duration-300"
-        x-transition:leave-start="opacity-100 transform translate-y-0"
-        x-transition:leave-end="opacity-0 transform translate-y-2"
-        class="fixed bottom-6 right-6 z-50 end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
-        <button
-            class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
-            @click="window.scrollTo({ top: 0, behavior: 'smooth' })">
-            <span class="sr-only">Back to top</span>
+        <!-- Carousel Wrapper with Padding for Buttons -->
+        <div class="relative mt-4 flex items-center justify-center h-64 px-10">
+            <!-- Tombol Navigasi (di luar embla agar tetap di pinggir) -->
+            <button
+                class="prev-btn-2 absolute left-0 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-3 rounded-full z-10 text-center">
+                &#11164;
+            </button>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd"
-                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                    clip-rule="evenodd" />
-            </svg>
-        </button>
+            <div class="embla embla-2 overflow-hidden w-full">
+                <div class="embla__viewport">
+                    <div class="embla__container flex">
+                        <div class="embla__slide min-w-full flex items-center justify-center">
+                            <div class="grid grid-cols-4 gap-6">
+                                <img src="img/mp/mp1.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 1">
+                                <img src="img/mp/mp2.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 2">
+                                <img src="img/mp/mp3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 3">
+                                <img src="img/mp/mp4.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 4">
+                            </div>
+                        </div>
+                        <div class="embla__slide min-w-full flex items-center justify-center">
+                            <div class="grid grid-cols-4 gap-6">
+                                <img src="img/mp/mp5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 5">
+                                <img src="img/mp/mp6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 6">
+                                <img src="img/mp/mp7.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 7">
+                                <img src="img/mp/mp8.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Company 8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tombol Navigasi (di luar embla agar tetap di pinggir) -->
+            <button
+                class="next-btn-2 absolute right-0 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-3 rounded-full z-10 text-center">
+                &#11166;
+            </button>
+        </div>
+
+        <!-- Dots Indicator -->
+        <div class="dots-container-2 absolute bottom-2 left-1/2 -translate-x-1/2 flex justify-center space-x-2"></div>
     </div>
-    {{-- Scroll to Top Button End --}}
+    <!-- Mitra Perusahaan Section End -->
+
+    <!-- Mitra Yayasan Section Start -->
+    <div class="relative my-8 bg-white rounded-lg py-6 px-2 shadow-lg">
+        <!-- Title -->
+        <h2 class="text-4xl text-center font-bold tracking-wider text-gray-800 drop-shadow-md">
+            Mitra Yayasan
+        </h2>
+
+        <!-- Carousel Wrapper with Padding for Buttons -->
+        <div class="relative mt-4 flex items-center justify-center h-64 px-10">
+            <!-- Tombol Navigasi (di luar embla agar tetap di pinggir) -->
+            <button
+                class="prev-btn-3 absolute left-0 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-3 rounded-full z-10 text-center">
+                &#11164;
+            </button>
+
+            <div class="embla embla-3 overflow-hidden w-full">
+                <div class="embla__viewport">
+                    <div class="embla__container flex">
+                        <div class="embla__slide min-w-full flex items-center justify-center">
+                            <div class="grid grid-cols-4 gap-6">
+                                <img src="img/my/my1.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 1">
+                                <img src="img/my/my2.jpg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 2">
+                                <img src="img/my/my3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 3">
+                                <img src="img/my/my4.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 4">
+                            </div>
+                        </div>
+                        <div class="embla__slide min-w-full flex items-center justify-center">
+                            <div class="grid grid-cols-5 gap-6">
+                                <img src="img/my/my5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 5">
+                                <img src="img/my/my6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 6">
+                                <img src="img/my/my7.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 7">
+                                <img src="img/my/my8.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 8">
+                                <img src="img/my/my9.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                    alt="Foundation 9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tombol Navigasi (di luar embla agar tetap di pinggir) -->
+            <button
+                class="next-btn-3 absolute right-0 top-1/2 -translate-y-1/2 bg-gray-800/50 text-white p-3 rounded-full z-10 text-center">
+                &#11166;
+            </button>
+        </div>
+
+        <!-- Dots Indicator -->
+        <div class="dots-container-3 absolute bottom-2 left-1/2 -translate-x-1/2 flex justify-center space-x-2"></div>
+    </div>
+    <!-- Mitra Yayasan Section End -->
 
 </x-layout>

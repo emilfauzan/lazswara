@@ -384,33 +384,33 @@
 
         {{-- 5. Dakwah Sub-Page --}}
         <div x-show="activePage === 'e'" class="my-4 p-4 bg-teal-500/20 rounded-md justify-items-center">
+
             <!-- Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center mb-4">
-                <!-- First Image -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
                         <img src="/img/p5/p4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
-                <!-- Second Image -->
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
-                        <img src="/img/p5/p5.png" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <!-- Third Image -->
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
                         <img src="/img/p5/p3.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
+
+                <!-- Full-width image spanning 2 columns on md+ screens -->
+                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
+                        style="background-image: url('/img/p5/p5.png');">
+                    </div>
+                </div>
             </div>
 
-            <h2 class="text-xl font-bold text-center">Program Kemanusiaan:</h2>
-            <p class="text-center">Program membantu biaya hidup mustahik yang membutuhkan seperti biaya bertahan hidup,
-                biaya perjalanan, dan bantuan makanan.</p>
+
+
+            <h2 class="text-xl font-bold text-center">Program Dakwah:</h2>
+            <p class="text-center">Program bantuan kepada fisabilillah yang sedang berjuang dalam syiar dakwah islam dan membutuhkan support tambahan berupa dana.</p>
             <button @click="activePage = null"
                 class="my-4 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">&#129136;
                 Kembali</button>
