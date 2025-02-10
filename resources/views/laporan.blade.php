@@ -12,7 +12,7 @@
     {{-- Banner Setion Start --}}
     <div class="grid md:grid-cols-1 my-4 break-words md:break-normal items-stretch min-h-[150px] gap-4">
         <div class="bg-cover bg-center rounded-lg shadow w-full items-center"
-            style="background-image: url('/img/officials.jpeg');">
+            style="background-image: url('/img/official3.jpeg');">
 
             <div
                 class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64 px-8">

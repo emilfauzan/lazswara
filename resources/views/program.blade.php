@@ -189,7 +189,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
-                        <img src="/img/e/e1.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/e/e3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -202,7 +202,7 @@
                 <!-- Full-width image spanning 2 columns on md+ screens -->
                 <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
                     <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/e/e3.png');">
+                        style="background-image: url('/img/e/e1.png');">
                     </div>
                 </div>
             </div>

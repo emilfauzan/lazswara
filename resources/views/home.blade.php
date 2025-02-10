@@ -291,7 +291,7 @@
                 <div class="embla__viewport">
                     <div class="embla__container flex">
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-4 gap-6">
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <img src="img/mp/mp6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 1">
                                 <img src="img/mp/mp7.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
@@ -303,12 +303,12 @@
                             </div>
                         </div>
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-3 gap-6">
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
                                 <img src="img/mp/mp2.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 5">
                                 <img src="img/mp/mp5.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 7">
-                                <img src="img/mp/mp3.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/mp/mp3.png" class="col-span-2 md:col-span-1 h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Company 6">
                             </div>
                         </div>
@@ -347,7 +347,7 @@
                 <div class="embla__viewport">
                     <div class="embla__container flex">
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-4 gap-6">
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <img src="img/my/my12.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 1">
                                     <img src="img/my/my8.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
@@ -359,7 +359,7 @@
                             </div>
                         </div>
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-4 gap-6">
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <img src="img/my/my9.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 2">
                                 <img src="img/my/my4.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
@@ -371,7 +371,7 @@
                             </div>
                         </div>
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-4 gap-6">
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                                 <img src="img/my/my15.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 5">
                                 <img src="img/my/my6.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
@@ -383,12 +383,12 @@
                             </div>
                         </div>
                         <div class="embla__slide min-w-full flex items-center justify-center">
-                            <div class="grid grid-cols-3 gap-6">
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
                                 <img src="img/my/my11.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 5">
                                 <img src="img/my/my17.png" class="h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 6">
-                                <img src="img/my/my14.jpeg" class="h-24 md:h-32 w-auto object-contain mx-auto"
+                                <img src="img/my/my14.jpeg" class="col-span-2 md:col-span-1 h-24 md:h-32 w-auto object-contain mx-auto"
                                     alt="Foundation 8">
                             </div>
                         </div>
