@@ -8,4 +8,10 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        host: 'localhost', // Bisa juga '0.0.0.0' jika butuh akses dari jaringan lain
+        port: 5173,
+        strictPort: true,
+        cors: true,
+    }
 });

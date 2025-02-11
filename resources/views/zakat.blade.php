@@ -12,12 +12,12 @@
         <!-- Text Section (Stretching height) -->
         <div class="flex flex-col justify-center rounded-lg px-6 py-8 bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Firman Allah Tentang Zakat</h2>
-            <h2 class="font-arabic p-4 text-ar text-2xl font-bold leading-relaxed">
+            <h2 class="font-arabic p-4 text-ar text-2xl font-bold leading-relaxed text-justify">
                 خُذْ مِنْ اَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيْهِمْ بِهَا وَصَلِّ عَلَيْهِمْۗ اِنَّ صَلٰوتَكَ
                 سَكَنٌ لَّهُمْۗ وَاللّٰهُ سَمِيْعٌ عَلِيْمٌ۝ اَلَمْ يَعْلَمُوْٓا اَنَّ اللّٰهَ هُوَ يَقْبَلُ التَّوْبَةَ
                 عَنْ عِبَادِهٖ وَيَأْخُذُ الصَّدَقٰتِ وَاَنَّ اللّٰهَ هُوَ التَّوَّابُ الرَّحِيْمُ۝
             </h2>
-            <h2 class="leading-relaxed">
+            <h2 class="leading-relaxed text-justify">
                 “Ambillah zakat dari sebagian harta mereka, dengan zakat itu kamu membersihkan dan menyucikan mereka dan
                 mendoalah untuk mereka. Sesungguhnya doa kamu itu (menjadi) ketenteraman jiwa bagi mereka. Dan Allah
                 Maha Mendengar lagi Maha Mengetahui. Tidaklah mereka mengetahui bahwa Allah menerima taubat dari
@@ -45,7 +45,7 @@
         <div class="flex flex-col justify-center rounded-lg px-6 py-8 bg-gray-300/20 shadow">
             <h2 class="text-2xl font-extrabold mb-4">Pengertian Zakat</h2>
 
-            <h2><strong>Zakat </strong>adalah rukun Islam ketiga dari lima rukun yang menjadi
+            <h2 class="text-justify"><strong>Zakat </strong>adalah rukun Islam ketiga dari lima rukun yang menjadi
                 pondasinya. Zakat menurut bahasa artinya bersih dan berkembang. Dinyatakan bersih karena zakat
                 membersihkan muzakki dari dosa dan mengembangkan pahalanya, selain itu zakat juga memperbanyak harta dan
                 membuatnya menjadi keberkahan. Di samping itu pula, zakat mampu membersihkan hati orang-orang kaya dari
@@ -73,14 +73,14 @@
                 <ol class="list-decimal ml-5">
                     <li>
                         <strong>Zakat Fitrah <br></strong>
-                        <h2>Zakat fitrah adalah zakat yang diperintahkan Nabi Muhammad kepada
+                        <h2 class="text-justify">Zakat fitrah adalah zakat yang diperintahkan Nabi Muhammad kepada
                             umat Islam pada waktu diwajibkannya puasa di Bulan Ramadhan sampai hari terakhir bulan
                             ramadhan sebelum
                             shalat Idul Fitri. Zakat fitrah dapat dibayarkan berupa beras sebanyak 2,5 kg.</h2>
                     </li>
                     <li>
                         <strong>Zakat Maal <br></strong>
-                        <h2>Zakat maal
+                        <h2 class="text-justify">Zakat maal
                             atau zakat harta merupakan zakat yang berkaitan dengan kepemilikan harta tertentu dan
                             memenuhi syarat
                             tertentu. Zakat maal meliputi zakat tumbuhan, zakat binatang ternak, zakat perniagaan, zakat
@@ -113,7 +113,7 @@
                 <li>Muslim yang merdeka</li>
                 <li>Harta berkembang (produktif atau berpotensi produktif) </li>
                 <li>Mencapai nishab</li>
-                <li> Kepemilikannya satu tahun penuh (haul) </li>
+                <li>Kepemilikannya satu tahun penuh (haul) </li>
                 <li>Bebas dari hutang</li>
             </ol>
         </div>

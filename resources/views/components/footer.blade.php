@@ -334,7 +334,7 @@
                     setTimeout(restartAutoScroll, 5000);
                 });
 
-                console.log(`Embla initialized for ${emblaSelector}`);
+                // console.log(`Embla initialized for ${emblaSelector}`);
             }
         }
 
