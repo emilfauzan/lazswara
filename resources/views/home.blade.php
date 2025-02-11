@@ -266,8 +266,6 @@
                 &nbsp; <p class="my-2 mx-4"><strong>Admin Swara </strong>Via WhatsApp</p>
                 <p class="my-2">+62 853 4968 8826</p>
             </a>
-            {{-- <p class="mt-2"><strong>Admin Swara </strong>Via WhatsApp</p>
-            <p class="text-sm">+62 853 4968 8826</p> --}}
         </div>
     </div>
     {{-- Hubungi Section End --}}

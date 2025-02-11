@@ -18,7 +18,6 @@
                 class="content-center rounded-lg text-center justify-center items-center bg-orange-300/60 h-80 md:h-64 px-8">
                 <h2 class="text-xl drop-shadow-md">Sebagai bentuk <strong>transparansi dan tanggung jawab</strong>, kami
                     membuat laporan keuangan setiap tahun yang dapat diakses dibawah ini.</h2>
-                {{-- <p class="text-lg drop-shadow-md">Lorem, ipsum. <strong>Lorem, ipsum.</strong></p> --}}
             </div>
         </div>
     </div>

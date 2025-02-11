@@ -103,10 +103,12 @@
                 </div>
             </div>
 
-            <h2 class="text-xl font-bold text-center">Program Pendidikan:</h2>
-            <p class="text-center">Program membantu meringankan biaya pendidikan mustahik seperti pelunasan biaya
-                sekolah, biaya seragam dan
-                buku, dan beasiswa penunjang pendidikan dalam waktu satu tahun.</p>
+            <div class="bg-white rounded-lg px-4 py-8 mb-4">
+                <h2 class="text-xl font-bold text-center">Program Pendidikan:</h2>
+                <p class="text-center">Program membantu meringankan biaya pendidikan mustahik seperti pelunasan biaya
+                    sekolah, biaya seragam dan
+                    buku, dan beasiswa penunjang pendidikan dalam waktu satu tahun.</p>
+            </div>
             <button @click="activePage = null"
                 class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">&#129136;
                 Kembali</button>
@@ -141,9 +143,11 @@
                 </div>
             </div>
 
-            <h2 class="text-xl font-bold text-center">Program Kesehatan:</h2>
-            <p class="text-center">Program membantu kesehatan mustahik seperti biaya berobat, biaya tanggungan rumah
-                sakit, dan biaya pelunasan BPJS dalam kurun waktu satu tahun.</p>
+            <div class="bg-white rounded-lg px-4 py-8 mb-4">
+                <h2 class="text-xl font-bold text-center">Program Kesehatan:</h2>
+                <p class="text-center">Program membantu kesehatan mustahik seperti biaya berobat, biaya tanggungan rumah
+                    sakit, dan biaya pelunasan BPJS dalam kurun waktu satu tahun.</p>
+            </div>
             <button @click="activePage = null"
                 class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">&#129136;
                 Kembali</button>
@@ -173,9 +177,11 @@
                 </div>
             </div>
 
-            <h2 class="text-xl font-bold text-center">Program Kemanusiaan:</h2>
-            <p class="text-center">Program membantu biaya hidup mustahik yang membutuhkan seperti biaya bertahan hidup,
-                biaya perjalanan, dan bantuan makanan.</p>
+            <div class="bg-white rounded-lg px-4 py-8 mb-4">
+                <h2 class="text-xl font-bold text-center">Program Kemanusiaan:</h2>
+                <p class="text-center">Program membantu biaya hidup mustahik yang membutuhkan seperti biaya bertahan hidup,
+                    biaya perjalanan, dan bantuan makanan.</p>
+            </div>
             <button @click="activePage = null"
                 class="my-4 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">&#129136;
                 Kembali</button>
@@ -207,8 +213,11 @@
                 </div>
             </div>
 
-            <h2 class="text-xl font-bold text-center">Program Ekonomi:</h2>
-            <p class="text-center">Program pemberian modal untuk kegiatan usaha UMKM mustahik. </p>
+            <div class="bg-white w-full rounded-lg px-4 py-8 mb-4">
+                <h2 class="text-xl font-bold text-center">Program Ekonomi:</h2>
+                <p class="text-center">Program pemberian modal untuk kegiatan usaha UMKM mustahik.</p>
+            </div>
+            
             <button @click="activePage = null"
                 class="my-4 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">&#129136;
                 Kembali</button>
@@ -245,9 +254,11 @@
                 </div>
             </div>
 
-            <h2 class="text-xl font-bold text-center">Program Dakwah:</h2>
-            <p class="text-center">Program bantuan kepada fisabilillah yang sedang berjuang dalam syiar dakwah islam
-                dan membutuhkan support tambahan berupa dana.</p>
+            <div class="bg-white rounded-lg px-4 py-8 mb-4">
+                <h2 class="text-xl font-bold text-center">Program Dakwah:</h2>
+                <p class="text-center">Program bantuan kepada fisabilillah yang sedang berjuang dalam syiar dakwah islam
+                    dan membutuhkan support tambahan berupa dana.</p>
+            </div>
             <button @click="activePage = null"
                 class="my-4 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">&#129136;
                 Kembali</button>
