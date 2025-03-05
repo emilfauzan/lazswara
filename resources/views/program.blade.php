@@ -164,27 +164,52 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/s/s1.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/s/kes1.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/s/s2.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/s/kes2.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/s/s3.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/s/kes3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/s/s4.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/s/kes4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/s/kes5.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/s/kes6.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/s/kes7.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/s/kes8.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
             </div>
 
             <div class="bg-teal-500/20 shadow-lg rounded-lg px-4 py-8 mb-4">
@@ -205,24 +230,106 @@
         <div x-show="activePage === 'c'" class="my-4 p-4 bg-white rounded-md justify-items-center">
             <!--  Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/k1.PNG" alt="Image" class="max-h-[500px] w-auto object-contain">
+                <!-- Full-width image spanning 2 columns on md+ screens -->
+                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
+                        style="background-image: url('/img/m/kem1.jpg');">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/k2.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/m/kem2.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem7.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <!-- Full-width image spanning 2 columns on md+ screens -->
                 <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
                     <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/m/k4.png');">
+                        style="background-image: url('/img/m/kem3.jpg');">
                     </div>
                 </div>
+
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem5.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <!-- Full-width image spanning 2 columns on md+ screens -->
+                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
+                        style="background-image: url('/img/m/kem6.jpg');">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem7.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem8.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem9.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem10.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem11.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem12.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem13.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem14.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem15.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
             </div>
 
             <div class="bg-teal-500/20 shadow rounded-lg px-4 py-8 mb-4">
@@ -247,20 +354,75 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
-                        <img src="/img/e/e3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/e/eko2.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
-                        <img src="/img/e/e2.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/e/eko3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko1.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko4.jpeg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko5.jpeg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko6.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <!-- Full-width image spanning 2 columns on md+ screens -->
                 <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
                     <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/e/e1.png');">
+                        style="background-image: url('/img/e/eko7.jpeg');">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko9.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko10.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko11.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko12.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <!-- Full-width image spanning 2 columns on md+ screens -->
+                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
+                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
+                        style="background-image: url('/img/e/eko8.jpg');">
                     </div>
                 </div>
             </div>
