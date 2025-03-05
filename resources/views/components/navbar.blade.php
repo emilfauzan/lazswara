@@ -1,11 +1,17 @@
 <nav class="bg-gray-100" x-data="{ isOpen: false }">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
-            <div class="flex items-center">
+            <a href="/" class="transition hover:opacity-75 flex items-center">
                 <div class="shrink-0">
-                    <img class="size-8" src="img/logotransparent.png" alt="LAZ Swara">
+                    <!-- Mobile (sm) Icon -->
+                    <img class="size-8 sm:block md:hidden" src="img/logotransparent.png" alt="LAZ Swara">
+                    
+                    <!-- Tablet (md) & Desktop (lg) Icon -->
+                    <img class="size-32 hidden md:block h-auto" src="img/logotransparent2.png" alt="LAZ Swara">
                 </div>
-            </div>
+            </a>
+            
+
 
             <div
                 class="invisible md:visible absolute inset-y-0 right-0 flex gap-3 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
@@ -37,23 +43,23 @@
                         x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
                         class="invisible md:visible absolute right-0 z-10 mt-2 w-64 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 focus:outline-none"
                         role="menu" aria-orientation="vertical" aria-labelledby="user-layanan-button" tabindex="-1">
-                            <div class="group relative rounded-lg px-2 py-1">
-                                <div>
-                                    <x-nav-link href='/laporan' :active="request()->is('laporan')">
-                                        Laporan Keuangan
-                                    </x-nav-link>
-                                </div>
+                        <div class="group relative rounded-lg px-2 py-1">
+                            <div>
+                                <x-nav-link href='/laporan' :active="request()->is('laporan')">
+                                    Laporan Keuangan
+                                </x-nav-link>
                             </div>
+                        </div>
 
-                            <div class="border-t border-gray-300 my-2"></div>
+                        <div class="border-t border-gray-300 my-2"></div>
 
-                            <div class="group relative rounded-lg px-2 py-1">
-                                <div>
-                                    <x-nav-link href='/rekening' :active="request()->is('rekening')">
-                                        Rekening Kami
-                                    </x-nav-link>
-                                </div>
+                        <div class="group relative rounded-lg px-2 py-1">
+                            <div>
+                                <x-nav-link href='/rekening' :active="request()->is('rekening')">
+                                    Rekening Kami
+                                </x-nav-link>
                             </div>
+                        </div>
 
                     </div>
                 </div>
@@ -62,7 +68,7 @@
             <div class="-mr-2 flex md:hidden">
                 <!-- Mobile menu button -->
                 <button type="button" @click="isOpen = !isOpen"
-                    class="relative inline-flex items-center justify-center rounded-md bg-teal-600 p-2 text-gray-200 hover:bg-teal-700 hover:text-white ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900"
+                    class="relative inline-flex items-center justify-center rounded-lg border-2 border-gray-700/30 p-2 text-gray-700 hover:bg-teal-700 hover:border-gray-500 hover:text-white ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-900"
                     aria-controls="mobile-menu" aria-expanded="false">
                     <span class="absolute -inset-0.5"></span>
                     <span class="sr-only">Open main menu</span>
