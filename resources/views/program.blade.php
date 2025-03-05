@@ -91,36 +91,12 @@
 
         <!-- Sub-Pages -->
         {{-- 1. Pendidikan Sub-Page --}}
-        <div x-show="activePage === 'a'" class="my-4 p-4 bg-teal-500/20 rounded-md justify-items-center">
+        <div x-show="activePage === 'a'" class="my-4 p-4 bg-white rounded-md justify-items-center">
             <!-- Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/p/pend1.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/p/pend2.png" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/p/pend3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/p/pend4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/p/pend5.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -132,7 +108,7 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/p/pend7.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/p/pend3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -141,19 +117,46 @@
                         <img src="/img/p/pend8.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/p/pend7.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/p/pend2.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/p/pend4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center md:col-span-2">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/p/pend5.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
             </div>
 
-            <div class="bg-white rounded-lg px-4 py-8 mb-4 shadow-lg">
+            <div class="bg-teal-500/20 rounded-lg px-4 py-8 mb-4 shadow-lg">
                 <h2 class="text-xl font-bold text-center">Program Pendidikan:</h2>
                 <p class="text-center">Program membantu meringankan biaya pendidikan mustahik seperti pelunasan biaya
                     sekolah, biaya seragam dan
                     buku, dan beasiswa penunjang pendidikan dalam waktu satu tahun.</p>
             </div>
-            <button
-                @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
-                class="mt-2 px-4 py-2 shadow-lg bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">
-                &laquo; Kembali
-            </button>
+            <div class="flex justify-center items-center">
+                <button
+                    @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
+                    class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-center items-center">
+                    &laquo; Kembali
+                </button>
+            </div>
 
 
         </div>
@@ -176,12 +179,6 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/s/kes3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <div class="flex justify-center items-center">
-                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/s/kes4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
@@ -192,19 +189,26 @@
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:col-span-2">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/s/kes3.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/s/kes6.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/s/kes7.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/s/kes8.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
@@ -218,11 +222,13 @@
                     rumah
                     sakit, dan biaya pelunasan BPJS dalam kurun waktu satu tahun.</p>
             </div>
-            <button
-                @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
-                class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">
-                &laquo; Kembali
-            </button>
+            <div class="flex justify-center items-center">
+                <button
+                    @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
+                    class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-center items-center">
+                    &laquo; Kembali
+                </button>
+            </div>
 
         </div>
 
@@ -230,10 +236,9 @@
         <div x-show="activePage === 'c'" class="my-4 p-4 bg-white rounded-md justify-items-center">
             <!--  Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-center mb-4">
-                <!-- Full-width image spanning 2 columns on md+ screens -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
-                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/m/kem1.jpg');">
+                <div class="flex justify-center items-center md:col-span-2">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/m/kem1.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -249,17 +254,16 @@
                     </div>
                 </div>
 
-                <!-- Full-width image spanning 2 columns on md+ screens -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
-                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/m/kem3.jpg');">
+                <div class="flex justify-center items-center md:col-span-2">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/m/kem3.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/kem4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/m/kem10.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -269,10 +273,9 @@
                     </div>
                 </div>
 
-                <!-- Full-width image spanning 2 columns on md+ screens -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
-                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/m/kem6.jpg');">
+                <div class="flex justify-center items-center md:col-span-2">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/m/kem6.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -284,7 +287,7 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/kem8.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/m/kem15.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -296,7 +299,7 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/kem10.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/m/kem4.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -314,21 +317,28 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/kem13.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/m/kem11.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
+                        <img src="/img/m/kem13.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/m/kem14.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/m/kem15.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/m/kem8.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
+
 
             </div>
 
@@ -338,11 +348,13 @@
                     hidup,
                     biaya perjalanan, dan bantuan makanan.</p>
             </div>
-            <button
-                @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
-                class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">
-                &laquo; Kembali
-            </button>
+            <div class="flex justify-center items-center">
+                <button
+                    @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
+                    class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-center items-center">
+                    &laquo; Kembali
+                </button>
+            </div>
 
 
         </div>
@@ -372,6 +384,12 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko6.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
                         <img src="/img/e/eko4.jpeg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
@@ -382,16 +400,9 @@
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
-                        <img src="/img/e/eko6.png" alt="Image" class="max-h-[500px] w-auto object-contain">
-                    </div>
-                </div>
-
-                <!-- Full-width image spanning 2 columns on md+ screens -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
-                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/e/eko7.jpeg');">
+                        <img src="/img/e/eko7.jpeg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -419,10 +430,9 @@
                     </div>
                 </div>
 
-                <!-- Full-width image spanning 2 columns on md+ screens -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center md:col-span-2">
-                    <div class="bg-cover bg-no-repeat bg-center rounded-lg h-96 w-full"
-                        style="background-image: url('/img/e/eko8.jpg');">
+                <div class="flex justify-center items-center md:col-span-2">
+                    <div class="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
+                        <img src="/img/e/eko8.jpg" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
             </div>
@@ -431,12 +441,13 @@
                 <h2 class="text-xl font-bold text-center">Program Ekonomi:</h2>
                 <p class="text-center">Program pemberian modal untuk kegiatan usaha UMKM mustahik.</p>
             </div>
-
-            <button
-                @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
-                class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">
-                &laquo; Kembali
-            </button>
+            <div class="flex justify-center items-center">
+                <button
+                    @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
+                    class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-center items-center">
+                    &laquo; Kembali
+                </button>
+            </div>
 
 
         </div>
@@ -496,13 +507,13 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/d/da9.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/d/dak9.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/d/da10.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/d/dak10.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -520,7 +531,7 @@
 
                 <div class="flex justify-center items-center">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
-                        <img src="/img/d/dak13.png" alt="Image" class="max-h-[500px] w-auto object-contain">
+                        <img src="/img/d/dak13.PNG" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
                 </div>
 
@@ -530,7 +541,7 @@
                     </div>
                 </div>
 
-                <div class="flex justify-center items-center col-span-2">
+                <div class="flex justify-center items-center md:col-span-2">
                     <div class="bg-white p-2 rounded-lg shadow flex justify-center items-center">
                         <img src="/img/d/dak11.png" alt="Image" class="max-h-[500px] w-auto object-contain">
                     </div>
@@ -543,11 +554,13 @@
                     islam
                     dan membutuhkan support tambahan berupa dana.</p>
             </div>
-            <button
-                @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
-                class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-self-center">
-                &laquo; Kembali
-            </button>
+            <div class="flex justify-center items-center">
+                <button
+                    @click="activePage = null; document.getElementById('program').scrollIntoView({ behavior: 'smooth' })"
+                    class="mt-2 px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-500 ease-in-out duration-200 justify-center items-center">
+                    &laquo; Kembali
+                </button>
+            </div>
 
         </div>
     </div>
